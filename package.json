@@ -1,0 +1,28 @@
+{
+	"name": "jenlooper.com",
+	"version": "3.0.0",
+	"description": "Jen Looper - Blog",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jlooper/blog.git"
+	},
+	"keywords": [
+		"Jen Looper",
+		"mobile",
+		"Vue.js",
+		"blog"
+	],
+	"author": "Jen Looper",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/jlooper/blog/issues"
+	},
+	"homepage": "https://github.com/jlooper/blog/#readme",
+	"devDependencies": {
+		"tailwindcss": "^0.7.2",
+		"autoprefixer": "^9.3.1",
+		"postcss-import": "^12.0.1",
+		"postcss-loader": "^3.0.0",
+		"postcss-url": "^8.0.0"
+	}
+}
