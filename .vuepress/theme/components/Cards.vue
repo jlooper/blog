@@ -1,7 +1,7 @@
 <template>
 
-<div class="flex flex-wrap pt-10 m-2 justify-center"> 
-    <div v-for="item in $page.frontmatter.cards" class="w-1/4 m-4 bg-white max-w-sm rounded shadow-lg text-center" @click="goToRoute(item.link)">
+<div class="flex flex-wrap pt-5 m-2 justify-center"> 
+    <div v-for="item in $page.frontmatter.cards" class="w-1/4 m-2 cursor-pointer bg-white max-w-sm rounded shadow-lg text-center" @click="goToRoute(item.link)">
         <img class="pt-5" :src="'./images/'+item.image+''" :alt="item.title">
         <div class="px-6 py-2">
             
