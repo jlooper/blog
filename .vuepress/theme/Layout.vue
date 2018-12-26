@@ -14,12 +14,13 @@ import Nav from './components/Nav.vue';
 import Footer from './components/Footer.vue';
 import HomeLayout from './layouts/HomeLayout.vue';
 import BlogLayout from './layouts/BlogLayout.vue';
+import BasicLayout from './layouts/BasicLayout.vue';
 import ContactLayout from './layouts/ContactLayout.vue';
 import VideoLayout from './layouts/VideoLayout.vue';
 
 
 export default {
-    components: { Nav, Footer, HomeLayout, BlogLayout, ContactLayout, VideoLayout },
+    components: { Nav, Footer, HomeLayout, BlogLayout, BasicLayout, ContactLayout, VideoLayout },
     computed: {
         layout() {
         return this.$page.frontmatter.layout || 'HomeLayout'
