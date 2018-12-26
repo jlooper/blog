@@ -7,4 +7,4 @@ Welcome! I'm a Google Developer Expert for Web Technologies and a Senior Develop
 
 Our Privacy Policy can be found [here](/privacy-policy)
 
-Looking to contact me? Email me at jen @ ladeezfirstmedia.com. My resume can be found [here](https://standardresume.co/JenLooper).
+Looking to contact me? Use [this form](/contact) or email me at jen @ ladeezfirstmedia.com. My resume can be found [here](https://standardresume.co/JenLooper).

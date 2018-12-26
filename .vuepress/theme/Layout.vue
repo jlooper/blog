@@ -2,7 +2,7 @@
 <div class="wrapper">  
     <div class="markdown-body m-10 rounded"> 
         <Nav/>            
-        <component :is="layout"></component>
+            <component :is="layout"></component>
         <Footer/>  
     </div> 
     
@@ -14,9 +14,12 @@ import Nav from './components/Nav.vue';
 import Footer from './components/Footer.vue';
 import HomeLayout from './layouts/HomeLayout.vue';
 import BlogLayout from './layouts/BlogLayout.vue';
+import ContactLayout from './layouts/ContactLayout.vue';
+import VideoLayout from './layouts/VideoLayout.vue';
+
 
 export default {
-    components: { Nav, Footer, HomeLayout, BlogLayout },
+    components: { Nav, Footer, HomeLayout, BlogLayout, ContactLayout, VideoLayout },
     computed: {
         layout() {
         return this.$page.frontmatter.layout || 'HomeLayout'

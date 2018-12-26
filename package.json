@@ -24,5 +24,8 @@
 		"postcss-import": "^12.0.1",
 		"postcss-loader": "^3.0.0",
 		"postcss-url": "^8.0.0"
+	},
+	"dependencies": {
+		"vue-youtube-embed": "^2.2.1"
 	}
 }

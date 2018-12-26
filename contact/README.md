@@ -1,5 +1,3 @@
 ---
-layout: BlogLayout
+layout: ContactLayout
 ---    
-
-# Contact me 
