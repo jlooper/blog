@@ -4,7 +4,7 @@
 	"description": "Jen Looper - Blog",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/jlooper/blog.git"
+		"url": "git+https://github.com/jlooper/jenlooper.com.git"
 	},
 	"keywords": [
 		"Jen Looper",
@@ -15,17 +15,14 @@
 	"author": "Jen Looper",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/jlooper/blog/issues"
+		"url": "https://github.com/jlooper/jenlooper.com/issues"
 	},
-	"homepage": "https://github.com/jlooper/blog/#readme",
+	"homepage": "https://github.com/jlooper/jenlooper.com/#readme",
 	"devDependencies": {
-		"tailwindcss": "^0.7.2",
 		"autoprefixer": "^9.3.1",
 		"postcss-import": "^12.0.1",
 		"postcss-loader": "^3.0.0",
-		"postcss-url": "^8.0.0"
-	},
-	"dependencies": {
-		"vue-youtube-embed": "^2.2.1"
+		"postcss-url": "^8.0.0",
+		"tailwindcss": "^0.7.2"
 	}
 }
