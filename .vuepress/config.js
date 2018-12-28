@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/blog/',
+    base: '/',
     title: 'Jen Looper - Developer Advocate based in Boston, MA',
     postcss: {
 		  plugins: [require('tailwindcss')('./tailwind.js'), require('autoprefixer')],
