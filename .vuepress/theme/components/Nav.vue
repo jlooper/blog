@@ -1,6 +1,6 @@
 <template>
  <nav class="nav rounded-t flex items-center justify-between flex-wrap p-6 text-right">
-  <a href="/" class="border text-lg no-underline cursor-pointer p-2 text-white block m-4">
+  <a :href="$withBase('/')" class="border text-lg no-underline cursor-pointer p-2 text-white block m-4">
     JL
   </a>
       
@@ -14,7 +14,7 @@
         <div class="nav-text text-med lg:flex-grow">
           <span v-for="item in $site.themeConfig.nav">
             <span :class="hidden">
-              <a :href="item.link" class="m-4 lg:mt-0 no-underline text-white hover:text-orange uppercase">
+              <a :href="$withBase(item.link)" class="m-4 lg:mt-0 no-underline text-white hover:text-orange uppercase">
                 {{item.text}}
               </a>
             </span>
