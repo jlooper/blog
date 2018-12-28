@@ -1,4 +1,5 @@
 module.exports = {
+    base: '/blog/',
     postcss: {
 		  plugins: [require('tailwindcss')('./tailwind.js'), require('autoprefixer')],
     },
