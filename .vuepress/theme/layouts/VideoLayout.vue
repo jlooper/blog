@@ -11,7 +11,7 @@
                 </div>
 
         <p class="text-center">
-            <a href="https://www.youtube.com/playlist?list=PL8bLS57CI8i2idWqYbsvu9IOwjTGqReaa">View my playlist for more talks</a>. If you're interested in booking me to speak at your conference or meetup, please use the <a href="/contact">contact form</a>. Thanks!
+            <a href="https://www.youtube.com/playlist?list=PL8bLS57CI8i2idWqYbsvu9IOwjTGqReaa">View my playlist for more talks</a>. If you're interested in booking me to speak at your conference or meetup, please use the <a href="/docs/contact">contact form</a>. Thanks!
         </p>
     </div>
 </div>

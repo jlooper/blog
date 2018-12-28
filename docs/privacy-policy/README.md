@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-layout: BlogLayout
+layout: BasicLayout
 ---
 
 This Privacy Policy governs the manner in which LadeezFirstMedia collects, uses, maintains and discloses information collected from users (each, a “User”) of the http://www.ladeezfirstmedia.com or http://www.jenlooper.com websites (“Site”). This privacy policy applies to the Site and all products and services offered by LadeezFirstMedia.

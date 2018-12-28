@@ -6,15 +6,10 @@ module.exports = {
       search: false,
       lastUpdated: 'Last Updated',
       nav: [
-        { text: 'Blog', link: '/blog/' },
-        { text: 'About', link: '/about/' },
-        { text: 'Contact', link: '/contact/' },
-        { text: 'Speaking', link: '/speaking/' },
-      ],
-      sidebar: [
-        '/',
-        ['/blog/intro.md', 'Blog'],
-        ['/', 'Resume'],
-      ],
+        { text: 'Articles', link: '/docs/articles/' },
+        { text: 'About', link: '/docs/about/' },
+        { text: 'Contact', link: '/docs/contact/' },
+        { text: 'Speaking', link: '/docs/speaking/' },
+      ]
     }
   }
