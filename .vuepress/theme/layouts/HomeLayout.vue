@@ -7,7 +7,7 @@
             <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-10 flex flex-col justify-between leading-normal">
                 <div class="mb-10">
                 <div class="text-blue-darkest font-bold text-5xl mb-2">Jen Looper</div>
-                <p class="text-blue-darkest text-lg">{{ $page.frontmatter.tagline }}</p>
+                <p class="text-blue-darkest italic text-xl">{{ $page.frontmatter.tagline }}</p>
                 </div>
                 
             </div>

@@ -8,7 +8,7 @@
                     <div class="text-center sm:text-left sm:flex-grow">
                     <div class="mb-4">
                         <p class="text-xl leading-tight">{{article.title}}</p>
-                        <p class="text-sm leading-tight text-grey-dark">{{article.date}} - {{ article.blurb }}</p>
+                        <p class="text-base leading-tight text-grey-dark">{{article.date}} - {{ article.blurb }}</p>
                     </div>
                     <div>
                         <button @click="goToArticle(article.link)" class="text-xs font-semibold rounded-full px-4 py-1 leading-normal bg-white border border-purple text-purple hover:bg-purple hover:text-white">Read More</button>

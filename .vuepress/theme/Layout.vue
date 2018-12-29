@@ -1,6 +1,6 @@
 <template>
 <div class="wrapper">  
-    <div class="markdown-body m-10 rounded"> 
+    <div class="markdown-body m-10 text-lg rounded"> 
         <Nav/>            
             <component :is="layout"></component>
         <Footer/>  
