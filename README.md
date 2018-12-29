@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: Jen Looper
-title: Jen Looper - Developer Advocate, Builder of Interesting Things, Based in Boston
+title: Jen Looper
 tagline: Developer Advocate | Speaker | Author | Builder of Interesting Things
 layout: HomeLayout
 footer: MIT Licensed | Copyright © 2018-present Evan You
