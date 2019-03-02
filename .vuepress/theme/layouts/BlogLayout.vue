@@ -1,5 +1,5 @@
 <template>
-    <div class="blog-body bg-white rounded p-5 m-5 text-blue-darkest">
+    <div class="blog-body bg-white rounded lg:p-10 lg:m-10 p-2 m-2 text-blue-darkest">
         <h1 class="pb-5 text-blue-darkest">{{$page.frontmatter.title}}</h1>
         
             <div class="m-5 bg-white shadow-lg rounded-lg overflow-hidden" v-for="article in $page.frontmatter.articles">

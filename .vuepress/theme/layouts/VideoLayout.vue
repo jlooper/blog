@@ -1,10 +1,10 @@
 <template>
-<div class="blog-body bg-white rounded m-10 text-blue-darkest">
+<div class="blog-body bg-white rounded lg:p-10 lg:m-10 p-2 m-2 text-blue-darkest">
         <div class="p-10"> 
             <h1 class="pb-5 text-blue-darkest">{{$page.frontmatter.title}}</h1>
             <p>Here are a few of my talks from 2018. Click the link below for more.</p>
-                <div v-for="video in videos" :key="video.id" class="m-10 text-center">
-                    <iframe width="560" height="315" :src="'https://www.youtube.com/embed/'+video+''" 
+                <div v-for="video in videos" :key="video.id" class="lg:m-10 text-center">
+                    <iframe class="video" :src="'https://www.youtube.com/embed/'+video+''" 
                         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
                         allowfullscreen>
                     </iframe>

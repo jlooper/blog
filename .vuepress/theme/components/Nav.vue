@@ -1,8 +1,8 @@
 <template>
  <nav class="nav rounded-t flex items-center justify-between flex-wrap p-6 text-right">
-  <a :href="$withBase('/')" class="border text-lg no-underline cursor-pointer p-2 text-white block m-4">
-    JL
-  </a>
+  <router-link class="border text-lg no-underline cursor-pointer p-2 text-white block m-4" :to="$withBase('/')">
+      JL
+  </router-link>
       
   <div v-on:click="openNav()" class="lg:hidden">
     <button class="flex items-center px-3 py-2 border rounded text-white border-white hover:text-orange hover:border-orange">
@@ -14,9 +14,11 @@
         <div class="nav-text text-med lg:flex-grow">
           <span v-for="item in $site.themeConfig.nav">
             <span :class="hidden">
-              <a :href="$withBase(item.link)" class="m-4 lg:mt-0 no-underline text-white hover:text-orange uppercase">
-                {{item.text}}
-              </a>
+              <router-link class="m-4 lg:mt-0 no-underline text-white hover:text-orange uppercase" :to="$withBase(item.link)">
+                {{ item.text }}
+                <span class="arrow"></span>
+              </router-link>
+            
             </span>
           </span>
           

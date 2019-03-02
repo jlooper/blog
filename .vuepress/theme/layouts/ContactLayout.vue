@@ -1,5 +1,5 @@
 <template>
-  <div class="blog-body bg-white rounded p-10 m-10 text-blue-darkest">                          
+  <div class="blog-body bg-white rounded lg:p-10 lg:m-10 p-2 m-2 text-blue-darkest">                          
     <iframe height="517"
         allowTransparency="true"
         frameborder="0"
