@@ -50,10 +50,8 @@ export default {
     }
   },
   created() {
-    /*seems to break prod
     document.title = this.$site.title;
     document.description = this.$site.description;
-    */
   }
 }
 </script>
