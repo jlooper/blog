@@ -30,7 +30,7 @@
           </a>  
         </div>  
     </div>
-</nav>
+</nav> 
 </template>
 <script>
 export default {
@@ -48,6 +48,10 @@ export default {
         this.hidden = 'lg:inline-block md:hidden sm:hidden hidden'
       }
     }
+  },
+  created() {
+    document.title = this.$site.title;
+    document.description = this.$site.description;
   }
 }
 </script>
