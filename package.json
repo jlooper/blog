@@ -24,5 +24,8 @@
 		"postcss-loader": "^3.0.0",
 		"postcss-url": "^8.0.0",
 		"tailwindcss": "^0.7.2"
-	}
+	},
+	"scripts": {
+		"docs:build": "vuepress build"
+	  }
 }
