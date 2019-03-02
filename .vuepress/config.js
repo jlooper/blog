@@ -1,6 +1,6 @@
 module.exports = {
     base: '/',
-    head: [['link', { rel: 'icon', href: '/favicon.png' }]],
+    head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
     title: 'Jen Looper - Developer Advocate based in Boston, MA',
     description: 'Jen Looper, blog, articles, speaking, writing, development, web, mobile',
     postcss: {
