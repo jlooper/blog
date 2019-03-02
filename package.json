@@ -25,7 +25,10 @@
 		"postcss-url": "^8.0.0",
 		"tailwindcss": "^0.7.2"
 	},
+	"dependencies": {
+		"vuepress": "^0.8.4"
+	},
 	"scripts": {
 		"docs:build": "vuepress build"
-	  }
+	}
 }
