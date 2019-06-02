@@ -1,7 +1,7 @@
 <template>
   <nav class="nav rounded-t flex items-center justify-between flex-wrap text-center border-b">
     <router-link
-      class="text-sans border border-gray-400 text-2xl no-underline cursor-pointer block m-4"
+      class="text-sans border border-gray-400 cursor-pointer block m-1 lg:m-4 md:m-2 sm:m-1"
       :to="$withBase('/')"
     >
       <img src="/images/sig.png">

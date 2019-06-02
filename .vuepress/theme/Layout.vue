@@ -1,6 +1,8 @@
 <template>
   <div class="wrapper">
-    <div class="markdown-body font-serif bg-white m-12 text-lg rounded-lg shadow-lg">
+    <div
+      class="markdown-body font-serif bg-white m-2 sm:m-3 md:m-6 lg:m-12 text-lg rounded-lg shadow-lg"
+    >
       <Nav/>
       <component :is="layout"></component>
       <Footer/>
