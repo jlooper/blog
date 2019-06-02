@@ -3,7 +3,7 @@
     <h1 class="text-3xl pb-5 pt-5 ml-5 text-gray-800">{{$page.frontmatter.title}}</h1>
     <div class="pl-5 text-gray-700">
       <p>Here are a few of my talks from 2018 - 2019. Click the link below for more.</p>
-      <div v-for="video in videos" :key="video.id" class="lg:m-10 text-center">
+      <div v-for="video in videos" :key="video.id" class="m-10 text-center">
         <iframe
           class="video"
           :src="'https://www.youtube.com/embed/'+video+''"
@@ -32,7 +32,14 @@ export default {
   name: "VideoLayout",
   data() {
     return {
-      videos: ["ZG7GtgfUS6g", "H4Rnh01ywJk", "dJTRjBHFLFU"]
+      videos: [
+        "SgBDEydZb4A",
+        "wCU-kDlXY58",
+        "ZG7GtgfUS6g",
+        "1Kqtg1Mw2wc",
+        "H4Rnh01ywJk",
+        "dJTRjBHFLFU"
+      ]
     };
   }
 };

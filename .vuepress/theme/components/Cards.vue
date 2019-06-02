@@ -42,7 +42,7 @@
               <div class="inline-block align-top">
                 <p class="underline text-3xl p-2 font-bold text-center">QuickNoms</p>
                 <p
-                  class="inline-block text-2xl lg:w-2/3 p-2 align-top"
+                  class="inline-block text-2xl lg:w-2/3 p-2 align-top text-center lg:text-left"
                 >5 Ingredients, 15 Minutes: QuickNoms! Recipes for busy people.</p>
                 <p class="inline-block invisible sm:invisible md:invisible lg:visible xl:visible">
                   <img src="/images/quicknoms_logo.png" width="150" height="150">
@@ -62,7 +62,7 @@
               <div class="inline-block align-top">
                 <p class="text-3xl p-2 font-bold text-center underline">PracticeBuddy</p>
                 <p
-                  class="inline-block text-2xl lg:w-2/3 p-2 align-top"
+                  class="inline-block text-2xl lg:w-2/3 p-2 align-top text-center lg:text-left"
                 >Practice Buddy is a mobile app for music teachers and students. Communicate, Incentivize!</p>
                 <p class="inline-block invisible sm:invisible md:invisible lg:visible xl:visible">
                   <img src="/images/practicebuddy_logo.png" width="150" height="150">
@@ -102,7 +102,7 @@
               <div class="inline-block align-top">
                 <p class="text-3xl p-2 font-bold text-center underline">ThingLearn</p>
                 <p
-                  class="inline-block text-2xl lg:w-2/3 p-2 align-top"
+                  class="inline-block text-2xl lg:w-2/3 p-2 align-top text-center lg:text-left"
                 >Activities teaching kids about the internet of things.</p>
                 <p class="inline-block invisible sm:invisible md:invisible lg:visible xl:visible">
                   <img src="/images/thinglearn_logo.png">
@@ -122,7 +122,7 @@
               <div class="inline-block align-top">
                 <p class="text-3xl p-2 font-bold text-center underline">Elocute</p>
                 <p
-                  class="inline-block text-2xl lg:w-2/3 p-2 align-top"
+                  class="inline-block text-2xl lg:w-2/3 p-2 align-top text-center lg:text-left"
                 >Practice Buddy is a mobile app for music teachers and students. Communicate, Incentivize!</p>
                 <p class="inline-block invisible sm:invisible md:invisible lg:visible xl:visible">
                   <img src="/images/elocute_logo.png" width="150">
