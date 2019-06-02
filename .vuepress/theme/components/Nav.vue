@@ -1,17 +1,15 @@
 <template>
-  <nav
-    class="nav rounded-t flex items-center justify-between flex-wrap text-center border-b border-pink-100"
-  >
+  <nav class="nav rounded-t flex items-center justify-between flex-wrap text-center border-b">
     <router-link
-      class="text-sans border border-green-800 text-2xl no-underline cursor-pointer text-pink-800 block m-4"
+      class="text-sans border border-gray-400 text-2xl no-underline cursor-pointer block m-4"
       :to="$withBase('/')"
     >
-      <img src="/images/jl.jpg" width="50px" height="50px">
+      <img src="/images/sig.png">
     </router-link>
 
     <div v-on:click="openNav()" class="lg:hidden">
       <button
-        class="flex items-center m-5 px-3 py-2 border rounded text-gray-800 border-white hover:text-orange hover:border-orange"
+        class="flex items-center m-5 px-3 py-2 border rounded border-white hover:text-orange hover:border-orange"
       >
         <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
           <title>Menu</title>
@@ -25,7 +23,7 @@
         <span v-for="item in $site.themeConfig.nav">
           <span :class="hidden">
             <router-link
-              class="text-sans mr-10 lg:mt-0 no-underline text-green-900 hover:text-blue-900 hover:underline uppercase"
+              class="text-sans mr-10 lg:mt-0 no-underline hover:text-yellow-600 hover:underline uppercase"
               :to="$withBase(item.link)"
             >
               {{ item.text }}

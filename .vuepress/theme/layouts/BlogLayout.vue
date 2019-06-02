@@ -1,6 +1,6 @@
 <template>
   <div class="markdown-body">
-    <h1 class="text-3xl pb-5 pt-5 ml-5 text-gray-800">{{$page.frontmatter.title}}</h1>
+    <h1 class="text-3xl pb-5 pt-5 ml-5">{{$page.frontmatter.title}}</h1>
 
     <div
       class="m-5 bg-white shadow-lg rounded-lg overflow-hidden"
@@ -14,8 +14,8 @@
         >
         <div class="text-center sm:text-left sm:flex-grow">
           <div class="mb-4">
-            <p class="text-xl leading-tight text-gray-700">{{article.title}}</p>
-            <p class="text-base leading-tight text-gray-600">{{article.date}} - {{ article.blurb }}</p>
+            <p class="text-xl leading-tight text-gray-800">{{article.title}}</p>
+            <p class="text-base leading-tight text-gray-700">{{article.date}} - {{ article.blurb }}</p>
           </div>
           <div>
             <button

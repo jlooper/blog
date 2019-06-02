@@ -4,8 +4,7 @@ heroText: Jen Looper
 title: Jen Looper
 tagline: [ 
 {'title': 'Developer Advocate'},
-{'title': 'Speaker'},
-{'title': 'Author'}, 
+{'title': 'Speaker and Author'},
 {'title': 'Builder of Interesting Things'}]
 layout: HomeLayout
 footer: MIT Licensed | Copyright © 2018-present Evan You
