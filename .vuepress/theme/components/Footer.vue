@@ -1,6 +1,8 @@
 <template>
   <footer class="footer rounded-b sticky pin-bottom p-6">
-    <div class="text-sans w-full block flex-grow flex justify-center items-center w-auto">
+    <div
+      class="text-sans w-full text-base lg:text-xl md:text-sm sm:text-sm block flex-grow flex justify-center items-center w-auto"
+    >
       &copy 2019 Ladeez First Media
       <a class="m-2 no-underline" href="http://github.com/jlooper">
         <svg class="fill-current w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">

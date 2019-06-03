@@ -24,7 +24,7 @@
       </div>
     </div>
     <!--row 1-->
-    <div class="px-2 mt-5">
+    <div class="px-2 mt-0 lg:mt-2 md:mt-0 sm:mt-0">
       <div class="flex flex-wrap -mx-2">
         <div class="w-full lg:w-1/3 px-2">
           <div class="h-56 rounded-lg rounded-tr-none border bg-gray-100 shadow">
@@ -54,7 +54,7 @@
       </div>
     </div>
     <!--row 2-->
-    <div class="px-2 mt-2">
+    <div class="px-2 mt-0 lg:mt-2 md:mt-0 sm:mt-0">
       <div class="flex flex-wrap -mx-2">
         <div class="w-full lg:w-2/3 px-2">
           <div class="h-56 rounded-lg rounded-tr-none border bg-gray-100 shadow">
@@ -63,7 +63,7 @@
                 <p class="text-3xl p-2 font-bold text-center underline">PracticeBuddy</p>
                 <p
                   class="inline-block text-2xl lg:w-2/3 p-2 align-top text-center lg:text-left"
-                >Practice Buddy is a mobile app for music teachers and students. Communicate, Incentivize!</p>
+                >Practice Buddy is a mobile app for music teachers and students.</p>
                 <p class="inline-block invisible sm:invisible md:invisible lg:visible xl:visible">
                   <img src="/images/practicebuddy_logo.png" width="150" height="150">
                 </p>
@@ -84,7 +84,7 @@
       </div>
     </div>
     <!--row 3-->
-    <div class="px-2 mt-2">
+    <div class="px-2 mt-0 lg:mt-2 md:mt-0 sm:mt-0">
       <div class="flex flex-wrap -mx-2">
         <div class="w-full lg:w-1/3 px-2">
           <div class="h-56 rounded-lg rounded-tr-none border bg-gray-100 shadow">
@@ -114,7 +114,7 @@
       </div>
     </div>
     <!--row 4-->
-    <div class="px-2 mt-2">
+    <div class="px-2 mt-0 lg:mt-2 md:mt-1 sm:mt-0">
       <div class="flex flex-wrap -mx-2">
         <div class="w-full lg:w-2/3 px-2">
           <div class="h-56 rounded-lg rounded-tr-none border bg-gray-100 shadow">
@@ -123,7 +123,7 @@
                 <p class="text-3xl p-2 font-bold text-center underline">Elocute</p>
                 <p
                   class="inline-block text-2xl lg:w-2/3 p-2 align-top text-center lg:text-left"
-                >Practice Buddy is a mobile app for music teachers and students. Communicate, Incentivize!</p>
+                >Elocute is a web and mobile project for language teachers and students.</p>
                 <p class="inline-block invisible sm:invisible md:invisible lg:visible xl:visible">
                   <img src="/images/elocute_logo.png" width="150">
                 </p>

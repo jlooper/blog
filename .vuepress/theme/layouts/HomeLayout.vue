@@ -1,6 +1,6 @@
 <template>
   <div class="markdown-body flex flex-col">
-    <div class="flex content-start yellow flex-wrap mt-5">
+    <div class="flex content-start yellow flex-wrap mt-0 lg:mt-5 md:mt-0 sm:mt-0">
       <div class="w-1/4 invisible sm:invisible md:invisible lg:visible xl:visible"></div>
 
       <div class="w-full sm:w-full md:w-1/2 lg:w-1/2 m-2 border rounded shadow bg-white">
