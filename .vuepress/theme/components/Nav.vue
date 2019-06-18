@@ -3,7 +3,7 @@
     class="nav rounded-t flex items-center justify-between flex-wrap text-right pr-0 lg:pr-5 md:pr-3 sm:pr-0 border-b"
   >
     <router-link
-      class="w-1/2 md:w-1/3 border border-gray-400 cursor-pointer block m-1 lg:m-4 md:m-2 sm:m-1"
+      class="w-1/2 md:w-1/3 cursor-pointer block m-1 lg:m-4 md:m-2 sm:m-1"
       :to="$withBase('/')"
     >
       <img src="/images/sig.png">

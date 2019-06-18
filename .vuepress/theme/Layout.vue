@@ -13,6 +13,7 @@
 import Nav from "./components/Nav.vue";
 import Footer from "./components/Footer.vue";
 import HomeLayout from "./layouts/HomeLayout.vue";
+import ArticleLayout from "./layouts/ArticleLayout.vue";
 import BlogLayout from "./layouts/BlogLayout.vue";
 import BasicLayout from "./layouts/BasicLayout.vue";
 import ContactLayout from "./layouts/ContactLayout.vue";
@@ -26,7 +27,8 @@ export default {
     BlogLayout,
     BasicLayout,
     ContactLayout,
-    VideoLayout
+    VideoLayout,
+    ArticleLayout
   },
   computed: {
     layout() {

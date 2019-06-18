@@ -2,6 +2,7 @@
 layout: BlogLayout
 title: Articles
 articles: [
+    {'title': 'Microsoft Azure For Spoiled People 3: Migrate Your Database', 'image': '41.jpg', 'blurb': 'Third in a series on Microsoft Azure cloud services. Migrate your Firebase data to Azure using Table Storage','date':'6/18/2019','link':'azure-site.html'},
     {'title': 'Microsoft Azure For Spoiled People 2: Deploy your App using Azure Pipelines', 'image': '40.jpg', 'blurb': 'Second in a series on Microsoft Azure cloud services. Set up CI properly using Azure pipelines. Set it and forget it!','date':'5/29/2019','link':'https://dev.to/jenlooper/microsoft-azure-for-spoiled-people-2-deploy-your-app-using-azure-pipelines-27f6'},
     {'title': 'Microsoft Azure for Spoiled People', 'image': '39.jpg', 'blurb': 'First in a series of articles on how to migrate from Firebase to Azure, with lots of tips on setting up your Vue.js web site.','date':'5/21/2019','link':'https://dev.to/jenlooper/microsoft-azure-for-spoiled-people-5bgh'},
     {'title': 'Growth-Hack Your Career as a WIT', 'image': '38.jpg', 'blurb': 'This article was inspired by International Women''s Day and was commissioned by ThePracticalDev as a showpiece for their IWD articles. Tips and tricks on growing your career with help from the Vue Vixens community.','date':'3/8/2019','link':'https://dev.to/vuevixens/growth-hack-your-career-as-a-wit-5207'},

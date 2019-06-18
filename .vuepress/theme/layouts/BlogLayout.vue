@@ -33,6 +33,7 @@
 export default {
   name: "BlogLayout",
   methods: {
+    //todo fix for local articles
     goToArticle(link) {
       window.open(link, "_blank");
     }
