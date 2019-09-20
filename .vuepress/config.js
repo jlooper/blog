@@ -16,4 +16,19 @@ module.exports = {
 			{ text: 'Speaking', link: '/docs/speaking/' },
 		],
 	},
+	head: [
+		[
+			'script',
+			{},
+			`
+        var _hmt = _hmt || []; 
+        (function() { 
+        var hm = document.createElement("script"); 
+        hm.src = "https://assets.digitalclimatestrike.net/widget.js"; 
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s); 
+        })(); 
+    `,
+		],
+	],
 };
