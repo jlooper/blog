@@ -13,7 +13,7 @@ You may be a developer, an accountant, or a football player now, but it's never 
 
 Emily Dickinson was a poet active in the mid 19th century in Amherst, Western Massachusetts, on the East Coast of the USA. She was well known even in her life for being an eccentric recluse, sometimes only talking to visitors through closed doors. She was famous not so much for her poetry during her lifetime (much was published posthumously) but rather for her gardening.
 
-How can we use new technology to bring the work of a 19th century poet back to our consciousness? In the eMiLy app, the interface encourages discovery, interaction, and creativity.
+How can we use new technology to bring the work of a 19th century poet back to our consciousness? In the eMiLy app, I designed an interface to encourage discovery, interaction, and creativity.
 
 -   From a simple random query, discover a poem of the day from an obscure collection.
 -   Use a slider to reflect the user's mood display a poem whose emotion correlates to the mood
