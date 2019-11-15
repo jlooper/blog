@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Machine Learning for Mobile Poets - Meet the eMiLy app | Jen Looper - Developer Advocate based in Boston, MA</title>
+    <meta name="description" content="Jen Looper, blog, articles, speaking, writing, development, web, mobile">
+    <link rel="icon" href="/favicon.ico">
+    
+    <link rel="preload" href="/assets/css/0.styles.480b0287.css" as="style"><link rel="preload" href="/assets/js/app.9d57326b.js" as="script"><link rel="preload" href="/assets/js/7.97a76a57.js" as="script"><link rel="prefetch" href="/assets/js/10.040c2854.js"><link rel="prefetch" href="/assets/js/11.b7c4915f.js"><link rel="prefetch" href="/assets/js/2.55cda6ef.js"><link rel="prefetch" href="/assets/js/3.bb0ac3c0.js"><link rel="prefetch" href="/assets/js/4.977000ca.js"><link rel="prefetch" href="/assets/js/5.b4dc4803.js"><link rel="prefetch" href="/assets/js/6.a14e076f.js"><link rel="prefetch" href="/assets/js/8.f0704b9b.js"><link rel="prefetch" href="/assets/js/9.134e6c49.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.480b0287.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="wrapper"><div class="markdown-body font-serif bg-white m-2 sm:m-3 md:m-6 lg:m-12 text-lg rounded-lg shadow-lg"><nav class="nav rounded-t flex items-center justify-between flex-wrap text-right pr-0 lg:pr-5 md:pr-3 sm:pr-0 border-b"><a href="/" class="w-1/2 md:w-1/3 cursor-pointer block m-1 lg:m-4 md:m-2 sm:m-1 router-link-active"><img src="/images/sig.png"></a> <div class="lg:hidden"><button class="flex m-5 px-3 py-2 border rounded border-white hover:text-orange hover:border-orange"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="fill-current h-3 w-3"><title>Menu</title> <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg></button></div> <div class="w-full block justify-end lg:flex lg:w-auto"><div class="nav-text text-med lg:flex-grow"><span><span class="lg:inline-block md:hidden sm:hidden hidden"><a href="/blogs/articles/" class="text-sans mr-10 lg:mt-0 no-underline hover:text-yellow-600 hover:underline uppercase router-link-active">
+            Articles
+            <span class="arrow"></span></a></span></span><span><span class="lg:inline-block md:hidden sm:hidden hidden"><a href="/blogs/about/" class="text-sans mr-10 lg:mt-0 no-underline hover:text-yellow-600 hover:underline uppercase">
+            About
+            <span class="arrow"></span></a></span></span><span><span class="lg:inline-block md:hidden sm:hidden hidden"><a href="/blogs/contact/" class="text-sans mr-10 lg:mt-0 no-underline hover:text-yellow-600 hover:underline uppercase">
+            Contact
+            <span class="arrow"></span></a></span></span><span><span class="lg:inline-block md:hidden sm:hidden hidden"><a href="/blogs/speaking/" class="text-sans mr-10 lg:mt-0 no-underline hover:text-yellow-600 hover:underline uppercase">
+            Speaking
+            <span class="arrow"></span></a></span></span></div></div></nav> <div class="markdown-body article"><h1 class="text-3xl pb-5 pt-5 ml-5 text-sans">Machine Learning for Mobile Poets - Meet the eMiLy app</h1> <div class="text-gray-800 p-5"><div class="content__default"><p>Remember way back in high school, when your English teacher tried to engrave upon your memory the importance of appreciating 19th-century poetry? Or how about college, when you were encouraged to memorize the prologue of the Canterbury Tales so that you could enliven a cocktail party?</p> <blockquote><p>This actually happened for me, and it never fails to entertain - thank you, Professor Lynch!</p></blockquote> <p>You may be a developer, an accountant, or a football player now, but it's never wrong to sit quietly and ponder the words carefully chosen by a poet who wanted to inspire you and make you think. To celebrate National Poetry Month in August, I built a mobile app that might help jog your memory about a poet that you might have forgotten, or never heard about, but someone who evokes strong feelings in many folks who hold good memories from their literature classes. Let's talk about Emily Dickinson.</p> <blockquote><p>Why a mobile app? Poetry is a great medium to consume on a mobile device. Often compact, these literary gems can fit on a small screen. You can also leverage a mobile device's hardware capabilities to enhance your experience, like taking a selfie or using the accelerometer. Also I like building mobile apps.</p></blockquote> <p>Emily Dickinson was a poet active in the mid 19th century in Amherst, Western Massachusetts, on the East Coast of the USA. She was well known even in her life for being an eccentric recluse, sometimes only talking to visitors through closed doors. She was famous not so much for her poetry during her lifetime (much was published posthumously) but rather for her gardening.</p> <p>How can we use new technology to bring the work of a 19th century poet back to our consciousness? In the eMiLy app, I designed an interface to encourage discovery, interaction, and creativity.</p> <ul><li>From a simple random query, discover a poem of the day from an obscure collection.</li> <li>Use a slider to reflect the user's mood display a poem whose emotion correlates to the mood</li> <li>Take a selfie, and display a correlating happy, sad, neutral or anxious poem</li> <li>And finally, display poetry generated by a Recurrent Neural Network, based on Dickinson's literary work, to see if her meter and style can be imitated. Stay tuned for an explanation of this in a separate article.</li></ul> <p>Building the eMiLy app allowed me to explore and dismantle the preconcieved notions about Dickinson's poetry that remained from school, idées fixes about her rhyme, meter, mood, and the themes that she touched in her poetry.</p> <h2 id="scaffolding-a-mobile-app"><a href="#scaffolding-a-mobile-app" class="header-anchor">#</a> Scaffolding a mobile app</h2> <p>My JavaScript framework of choice is Vue.js, and an excellent way to build a native mobile app using Vue is <a href="http://www.nativescript-vue.org" target="_blank" rel="noopener noreferrer">NativeScript-Vue<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>. Community-built (thanks Igor!) it is supported by <a href="http://progress.com" target="_blank" rel="noopener noreferrer">Progress<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>'s Open Source project, <a href="http://nativescript.org" target="_blank" rel="noopener noreferrer">NativeScript<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>. Install NativeScript on your local machine, following these <a href="https://docs.nativescript.org/start/quick-setup" target="_blank" rel="noopener noreferrer">instructions<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>
+and use it from the command line:</p> <div class="language- extra-class"><pre class="language-text"><code>tns create my-new-app
+</code></pre></div><p>You'll be prompted to select your framework of choice and a basic layout.</p> <p><img src="/images/42/scaffold.gif" alt="scaffolding the mobile app"></p> <p>I usually choose a blank layout, and then create custom tabs where my pages will be injected. Once scaffolded, you can start working in your editor of choice.</p> <div class="language- extra-class"><pre class="language-text"><code>//components/Home.vue
+
+&lt;template&gt;
+  &lt;Page class=&quot;page&quot; actionBarHidden=&quot;true&quot;&gt;
+    &lt;GridLayout rows=&quot;*,auto&quot; columns=&quot;*&quot;&gt;
+      &lt;!-- main components all on top of each other, since only 1 will be visible at any given time --&gt;
+      &lt;component
+        v-for=&quot;component in componentsArray&quot;
+        v-show=&quot;component === currentComponent&quot;
+        :key=&quot;component&quot;
+        :is=&quot;component&quot;
+        row=&quot;0&quot;
+        col=&quot;0&quot;
+      /&gt;
+      &lt;GridLayout row=&quot;1&quot; col=&quot;0&quot; rows=&quot;*&quot; columns=&quot;*,*,*,*&quot;&gt;
+        &lt;!-- Bottom navigation --&gt;
+        &lt;StackLayout row=&quot;0&quot; col=&quot;0&quot; :class=&quot;navigationButtonClasses('DailyPoem')&quot;&gt;
+          &lt;Image @tap=&quot;currentComponent = 'DailyPoem'&quot; src=&quot;~/assets/pencil.png&quot; height=&quot;30&quot; /&gt;
+        &lt;/StackLayout&gt;
+		&lt;!--more bottom navigation--&gt;
+      &lt;/GridLayout&gt;
+    &lt;/GridLayout&gt;
+  &lt;/Page&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+import DailyPoem from &quot;../components/DailyPoem&quot;;
+import MyMood from &quot;../components/MyMood&quot;;
+import MoodSlider from &quot;../components/MoodSlider&quot;;
+import NewPoetry from &quot;../components/NewPoetry&quot;;
+
+export default {
+  data() {
+    return {
+      currentComponent: &quot;DailyPoem&quot;,
+      componentsArray: [&quot;DailyPoem&quot;, &quot;MyMood&quot;, &quot;MoodSlider&quot;, &quot;NewPoetry&quot;]
+    };
+  },
+  computed: {
+    navigationButtonClasses() {
+      return component =&gt; ({
+        &quot;nav-btn&quot;: true,
+        colored: component === this.currentComponent
+      });
+    }
+  },
+
+  components: {
+    DailyPoem,
+    MyMood,
+    MoodSlider,
+    NewPoetry
+  }
+};
+&lt;/script&gt;
+
+</code></pre></div><p>The Home.vue single-file component is the heart of this app; each page is loaded into this manufactured tab layout to be displayed. Assuming Xcode and/or Android Studio is installed on your local machine, you can also emulate the app as you build it; hot module replacement is available to you and speeds up the process:</p> <div class="language- extra-class"><pre class="language-text"><code>tns run ios/android
+</code></pre></div><p>With your tabs in place, your bottom navigation ready to go, and your pages ready, it's time to build out the four screens of this app.</p> <h2 id="dickinson-data"><a href="#dickinson-data" class="header-anchor">#</a> Dickinson Data</h2> <p>The first question faced when building an app based on literature or art is always where to source data. Fortunately, a database of poems exists with over 300 Emily Dickinson poems (out of over 1800; she was a prolific writer). By exporting them in Json format, you can build a poem-of-the-day screen for your mobile app. On the first screen, I display a randomly-chosen poem out of the dataset that I exported from <a href="http://poetrydb.org/author/Emily%20Dickinson" target="_blank" rel="noopener noreferrer">poetrydb.org<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>.</p> <div class="language- extra-class"><pre class="language-text"><code>//components/DailyPoem.vue
+
+&lt;script&gt;
+import { mapActions, mapState } from &quot;vuex&quot;;
+
+export default {
+  computed: {
+    ...mapState([&quot;poem&quot;])
+  },
+  methods: {
+    ...mapActions([&quot;getPoem&quot;])
+  },
+  created() {
+    this.getPoem();
+  }
+};
+&lt;/script&gt;
+</code></pre></div><p>Using Vuex, I'm able to control the app's state, showing a new poem on app refresh. You could change this to reflect the day, or even enhance the app to reflect seasonality. For now, I'm simply displaying a random poem from a group of 300 saved to Json, tidying up its format for display:</p> <div class="language- extra-class"><pre class="language-text"><code>//store/index.js - this is my Vuex store
+
+getPoem({ commit }) {
+   let randomPoem = Math.floor(Math.random() * 300);
+   let poemObject = poetry[randomPoem];
+   let parsedPoem = JSON.stringify(poemObject.text);
+   let selectedPoem = parsedPoem.split(',').join('\n');
+        commit('displayPoem', selectedPoem);
+}
+</code></pre></div><p>In the DailyPoem.vue's template block, then, I use NativeScript's XML-style markup to show the poem:</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;template&gt;
+  &lt;StackLayout&gt;
+    &lt;Label class=&quot;action-bar&quot; text=&quot;Discover Emily Dickinson&quot;&gt;&lt;/Label&gt;
+    &lt;ScrollView class=&quot;card&quot;&gt;
+      &lt;StackLayout&gt;
+        &lt;Label horizontalAlignment=&quot;center&quot; textWrap=&quot;true&quot; class=&quot;title&quot;&gt;Welcome&lt;/Label&gt;
+        &lt;Image src=&quot;~/assets/logo.png&quot; width=&quot;400px&quot; /&gt;
+        &lt;StackLayout class=&quot;inner-card&quot;&gt;
+          &lt;Label horizontalAlignment=&quot;center&quot; textWrap=&quot;true&quot; class=&quot;subtitle&quot;&gt;My Daily Poem&lt;/Label&gt;
+          &lt;Label textWrap=&quot;true&quot; :text=&quot;poem&quot; /&gt;
+        &lt;/StackLayout&gt;
+      &lt;/StackLayout&gt;
+    &lt;/ScrollView&gt;
+  &lt;/StackLayout&gt;
+&lt;/template&gt;
+</code></pre></div><p>This is the simplest use case for showing a random poem in a screen. The result looks like this:</p> <p><img src="/images/42/daily-poem.png" alt="daily poem screen"></p> <h2 id="the-measure-of-mood"><a href="#the-measure-of-mood" class="header-anchor">#</a> The Measure of Mood</h2> <p>Emily Dickinson's poetry seems to be best-known for being sad; if you ask a student about words that her poems evoke, you might hear &quot;dark&quot; or &quot;gloomy&quot;. But was Emily's work universally sad? It's risky to try to evaluate the mental health of people long past their lifetime solely through their literary output, but it has been surmised that Emily might have suffered from <a href="https://www.drmirkin.com/histories-and-mysteries/emily-dickinson-sad-poet-2.html" target="_blank" rel="noopener noreferrer">seasonal-affective disorder<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>, given the wide variation of mood that her poetry evokes depending on whether it was written in winter or summer.</p> <p>To help answer the question of whether Emily's work is predominantly sad or happy, I made use of a quick text-mining project I created in Azure Notebooks. You can fork this project and mine your own texts for most commonly-used words; if I run it in one of Azure's free colabs, I find that the most common word is:</p> <p>(Can you guess it?)</p> <p>LIKE</p> <p>I believe that this is because Emily makes such frequent use of simile; the soul is like a flower, the heart is like the sun...</p> <p><img src="/images/42/text-mining.png" alt="daily poem screen"></p> <p>Further analysis shows that she uses the word 'life' more often than 'death', and 'day' more often than 'night'. She draws heavily on natural imagery: 'summer', 'day', 'sun', 'nature', 'time', 'sea', 'flower', 'rose'. A little machine-aided text-mining helps to busting presuppositions about a poet's intention and overall mood.</p> <p>Given that we now know that Emily's poetry ranges greatly in emotion, as do we ourselves, we can consider building an emotive experience for a mobile user based on her poems' sentiment. Let's display a happy or sad poem, based on the user's preference.</p> <p>To do this, I built a slider - slide right for happy poems, slide left for sadder poems. But how can one tell which of Emily's poems are happy, and which are sad?</p> <p>Microsoft cognitive services <a href="https://azure.microsoft.com/en-us/services/cognitive-services/text-analytics/?WT.mc_id=jenloopercom-blog-jelooper" target="_blank" rel="noopener noreferrer">text sentiment analysis<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> to the rescue!</p> <p><img src="/images/42/sentiment-analysis.png" alt="Sentiment Service"></p> <p>Text can tell a lot about a user's sentiment. Designed for things like analyzing user feedback and restaurant reviews, the service can also be used - as I discovered - to get a measure of the sentiment of a given poem. Using the poetry that I had exported from poetrydb.com, I ran several poems through the service and saved the sentiment score to the Json object where I store the selection of poems used in the app.</p> <p>Then, I built a slider for the user to manipulate:</p> <div class="language- extra-class"><pre class="language-text"><code>//components/MoodSlider.vue
+
+&lt;Slider
+    borderWidth=&quot;5&quot;
+    margin=&quot;5&quot;
+    color=&quot;#00416a&quot;
+    backgroundColor=&quot;#00416a&quot;
+    minValue=&quot;0&quot;
+    maxValue=&quot;1&quot;
+    :value=&quot;value&quot;
+    @valueChange=&quot;onValueChanged($event.value)&quot;
+/&gt;
+</code></pre></div><p>As the slider moves, the value to which it is bound also changes as does the color of the surrounding card:</p> <div class="language- extra-class"><pre class="language-text"><code>//components/MoodSlider.vue
+
+onValueChanged(e) {
+      this.showCard = true;
+      this.clearMoodPoem();
+      this.value = e.toFixed(2);
+      if (this.value &lt; 0.5) {
+        this.moodClass = &quot;inner-card blue&quot;;
+      } else {
+        this.moodClass = &quot;inner-card rose&quot;;
+      }
+    },
+</code></pre></div><p>When the user taps a button, the Vuex store provides a poem with a similar sentiment score, based on the saved value in the Json dataset.</p> <p><img src="/images/42/slider.png" alt="Sentiment Service"></p> <h2 id="the-enigmatic-face"><a href="#the-enigmatic-face" class="header-anchor">#</a> The Enigmatic Face</h2> <p>To further personalize the project, what if someone could take a selfie, have the sentiment of the face analyzed, and have a poem matched to your mood as depicted by your face's expression? Once again, turning to Microsoft cognitive services, we have a nice solution handy. Rather than relying on pre-processed data, this time we will send an API call to Azure and get back information about a face's sentiment. To try this API, upload a photo <a href="https://azure.microsoft.com/en-us/try/cognitive-services/my-apis/?api=face-api?WT.mc_id=jenloopercom-blog-jelooper" target="_blank" rel="noopener noreferrer">here<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>.</p> <p>To get this working, you need a cognitive service setup for and a key to access the provided endpoint.</p> <p>The user will snap a selfie:</p> <div class="language- extra-class"><pre class="language-text"><code>//components/MyMood.vue
+
+async runFaceDetect() {
+      this.clearSelfiePoem();
+      this.complete = false;
+      const imageAsset = await takePicture({
+        width: 300,
+        height: 500,
+        keepAspectRatio: true,
+        saveToGallery: false,
+        cameraFacing: &quot;front&quot;
+      });
+      //process the asset
+      const filePath = await this.getFilePath(imageAsset);
+      const imageFile = File.fromPath(filePath);
+      this.selfie = imageAsset;
+      //send it to Azure
+      this.result = await this.sendRequest(imageFile);
+    },
+</code></pre></div><p>and then the image file will be sent to cognitive services where the Face API is queried for the <code>emotion</code> facial attribute:</p> <div class="language- extra-class"><pre class="language-text"><code>//components/MyMood.vue
+
+sendRequest(file) {
+      return new Promise((resolve, reject) =&gt; {
+        const ses = session(&quot;image-upload&quot;);
+
+        const request = {
+          url:
+            &quot;https://emilyemotions.cognitiveservices.azure.com/face/v1.0/detect?returnFaceLandmarks=false&amp;returnFaceAttributes=emotion&quot;,
+          method: &quot;POST&quot;,
+          headers: {
+            &quot;Content-Type&quot;: &quot;application/octet-stream&quot;,
+            &quot;Ocp-Apim-Subscription-Key&quot;: &quot;provided-key&quot;
+          },
+          description: &quot;Uploading &quot; + file.name
+        };
+
+        ...
+      });
+    }
+</code></pre></div><p>The Face API returns an array of sentiments, and you can match the top returned value to the sentiments already saved in the .json dataset prior. Learn more about using the Face API <a href="https://docs.microsoft.com/en-us/azure/cognitive-services/face/?WT.mc_id=jenloopercom-blog-jelooper" target="_blank" rel="noopener noreferrer">here<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>.</p> <p><img src="/images/42/face.png" alt="Sentiment Service"></p> <p>So far, the app shows a progression from displaying one poem through leveraging pre-processed sentiments to reading sentiments from users' faces and displaying a matching poem. In the next article, I'll discuss how I built the final screen of this app using poems generated by a Recurrent Neural Network, to see if it could detect, match and reproduce the 'ballad meter' often used by Dickinson. Stay tuned for the second part of this article series!</p> <p>I hope that I've inspired you, if not to go back and read through Emily Dickinson's thought-provoking works, then perhaps to look through old literature and see how you can introduce it to new readers via the technology that we build every day. Find the assets for this work, including presentation slides and video and the full app codebase <a href="https://github.com/jlooper/emily" target="_blank" rel="noopener noreferrer">here<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>.</p> <p>Learn more about:
+🤳 <a href="https://docs.microsoft.com/en-us/azure/cognitive-services/face/?WT.mc_id=jenloopercom-blog-jelooper" target="_blank" rel="noopener noreferrer">Face API<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>
+✍️ <a href="https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/index/?WT.mc_id=jenloopercom-blog-jelooper" target="_blank" rel="noopener noreferrer">Text Analytics<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>
+👩🏻 <a href="https://en.wikipedia.org/wiki/Emily_Dickinson" target="_blank" rel="noopener noreferrer">Emily Dickinson<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></div></div></div> <footer class="footer rounded-b sticky pin-bottom p-6"><div class="text-sans w-full text-base lg:text-xl md:text-sm sm:text-sm block flex-grow flex justify-center items-center w-auto">
+    © 2019 Ladeez First Media
+    <a href="http://github.com/jlooper" class="m-2 no-underline"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current w-5 h-5"><title>GitHub</title> <path d="M10 0a10 10 0 0 0-3.16 19.49c.5.1.68-.22.68-.48l-.01-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.1.39-1.99 1.03-2.69a3.6 3.6 0 0 1 .1-2.64s.84-.27 2.75 1.02a9.58 9.58 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.37.2 2.4.1 2.64.64.7 1.03 1.6 1.03 2.69 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85l-.01 2.75c0 .26.18.58.69.48A10 10 0 0 0 10 0"></path></svg></a> <a href="http://twitter.com/jenlooper" class="m-2 no-underline text-gray-800"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current w-5 h-5"><title>Twitter</title> <path d="M6.29 18.25c7.55 0 11.67-6.25 11.67-11.67v-.53c.8-.59 1.49-1.3 2.04-2.13-.75.33-1.54.55-2.36.65a4.12 4.12 0 0 0 1.8-2.27c-.8.48-1.68.81-2.6 1a4.1 4.1 0 0 0-7 3.74 11.65 11.65 0 0 1-8.45-4.3 4.1 4.1 0 0 0 1.27 5.49C2.01 8.2 1.37 8.03.8 7.7v.05a4.1 4.1 0 0 0 3.3 4.03 4.1 4.1 0 0 1-1.86.07 4.1 4.1 0 0 0 3.83 2.85A8.23 8.23 0 0 1 0 16.4a11.62 11.62 0 0 0 6.29 1.84"></path></svg></a></div></footer></div></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.9d57326b.js" defer></script><script src="/assets/js/7.97a76a57.js" defer></script>
+  </body>
+</html>
