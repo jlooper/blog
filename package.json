@@ -28,7 +28,7 @@
 		"vuepress": "1.2.0"
 	},
 	"scripts": {
-		"build": "vuepress build",
+		"docs:build": "vuepress build",
 		"dev": "vuepress dev docs"
 	}
 }
