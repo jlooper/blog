@@ -1,10 +1,14 @@
 {
 	"name": "jenlooper.com",
 	"version": "3.0.0",
-	"description": "Jen Looper - Blog",
+	"description": "Jen Looper - Developer Advocate",
+	"main": "tailwind.config.js",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/jlooper/jenlooper.com.git"
+		"url": "git+https://github.com/jlooper/blog.git"
+	},
+	"directories": {
+		"doc": "docs"
 	},
 	"keywords": [
 		"Jen Looper",
@@ -15,20 +19,16 @@
 	"author": "Jen Looper",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/jlooper/jenlooper.com/issues"
+		"url": "https://github.com/jlooper/blog/issues"
 	},
-	"homepage": "https://github.com/jlooper/jenlooper.com/#readme",
-	"devDependencies": {
-		"autoprefixer": "^9.3.1",
-		"postcss-import": "^12.0.1",
-		"postcss-loader": "^3.0.0",
-		"postcss-url": "^8.0.0",
-		"tailwindcss": "^1.0.2"
-	},
+	"homepage": "https://github.com/jlooper/blog/#readme",
 	"dependencies": {
-		"vuepress": "^0.14.9"
+		"autoprefixer": "9.6.1",
+		"tailwindcss": "1.1.2",
+		"vuepress": "1.2.0"
 	},
 	"scripts": {
-		"docs:build": "vuepress build"
+		"build": "vuepress build",
+		"dev": "vuepress dev docs"
 	}
 }
