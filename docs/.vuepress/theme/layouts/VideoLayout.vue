@@ -1,8 +1,8 @@
 <template>
-  <div class="markdown-body text-gray-800">
-    <h1 class="text-3xl pb-5 pt-5 ml-5 text-gray-800">{{$page.frontmatter.title}}</h1>
-    <div class="pl-5 text-gray-700">
-      <p>Here are a few of my talks from 2018 - 2019. Click the link below for more.</p>
+  <div>
+    <h1 class="text-3xl pb-5 pt-5 ml-5 text-white">{{$page.frontmatter.title}}</h1>
+    <div class="pl-5 text-white">
+      <p>Here are a few of my talks from 2018 - 2020. Click the link below for more.</p>
       <div v-for="video in ytvideos" :key="video.id" class="m-10 text-center">
         <iframe
           class="video"

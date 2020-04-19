@@ -1,11 +1,9 @@
 <template>
-<div class="wrapper">
-    <div
-      class="markdown-body font-serif bg-white m-2 sm:m-3 md:m-6 lg:m-12 text-lg rounded-lg shadow-lg"
-    >
-      <Nav/>
+  <div class="wrapper">
+    <div class="markdown-body font-serif m-2 sm:m-6 md:m-10 lg:m-15 text-lg">
+      <Nav />
       <component :is="layout"></component>
-      <Footer/>
+      <Footer />
     </div>
   </div>
 </template>
@@ -39,5 +37,5 @@ export default {
 </script>
 
 <style lang="stylus">
-  @import '../styles/style.styl';
+@import '../styles/style.styl';
 </style>

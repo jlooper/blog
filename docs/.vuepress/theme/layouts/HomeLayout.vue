@@ -1,36 +1,36 @@
 <template>
-  <div class="markdown-body flex flex-col">
-    <div class="flex content-start yellow flex-wrap mt-0 lg:mt-5 md:mt-0 sm:mt-0">
-      <div class="w-1/4 invisible sm:invisible md:invisible lg:visible xl:visible"></div>
-
-      <div class="w-full sm:w-full md:w-1/2 lg:w-1/2 m-2 border rounded shadow bg-white">
-        <div class="max-w-sm w-full lg:max-w-full lg:flex">
-          <div
-            class="h-48 h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
-            style="background-image: url('/images/jenlooper.jpg')"
-            title="Jen Looper"
-          ></div>
-          <div class="bg-white rounded p-4 flex flex-col justify-between leading-normal">
-            <div class="mb-8">
-              <div class="font-bold text-3xl lg:text-5xl md:text-4xl sm:text-2xl mb-2">hi, I'm Jen</div>
-              <div>
-                <h2 class="text-2xl lg:text-2xl md:text-xl sm:text-lg">Developer Advocate</h2>
-                <h2 class="text-2xl lg:text-2xl md:text-xl sm:text-lg">Speaker</h2>
-                <h2 class="text-2xl lg:text-2xl md:text-xl sm:text-lg">Author</h2>
-                <h2 class="text-2xl lg:text-2xl md:text-xl sm:text-lg">Builder of Interesting Things</h2>
+  <div>
+    <div class="mt-0 lg:mt-2 md:mt-0 sm:mt-0">
+      <div class="flex flex-wrap -mx-2">
+        <div class="w-full lg:w-1/2 px-2">
+          <div class="h-56 float-right">
+            <div class="cursor-pointer" @click="goToSite('https://yomamaisa.dev')">
+              <div class>
+                <Img src="./images/jen-bg.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 px-2">
+          <div class="h-56">
+            <div class="cursor-pointer" @click="goToSite('https://www.quicknoms.com')">
+              <div class="inline-block align-top">
+                <h1 class="text-2xl p-2 text-white text-left">Hi, I'm Jen</h1>
+                <p class="text-2xl p-2 text-white text-left">Developer Advocate</p>
+                <p class="text-2xl p-2 text-white text-left">Speaker</p>
+                <p class="text-2xl p-2 text-white text-left">Author</p>
+                <p class="text-2xl p-2 text-white text-left">Builder of Interesting Things</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="w-1/4 invisible sm:invisible md:invisible lg:visible xl:visible yellow"></div>
+    </div>
+    <div class="pt-20">
+      <p class="header-text text-4xl text-center text-white">Featured Projects and Initiatives</p>
     </div>
 
-    <div class="pt-10">
-      <p class="text-4xl text-center">Featured Projects and Initiatives</p>
-    </div>
-
-    <Cards class="m-10"/>
+    <Cards class="m-10" />
   </div>
 </template>
 

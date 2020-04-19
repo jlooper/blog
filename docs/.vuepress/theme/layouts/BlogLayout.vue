@@ -1,9 +1,9 @@
 <template>
-  <div class="markdown-body">
-    <h1 class="text-3xl pb-5 pt-5 ml-5">{{$page.frontmatter.title}}</h1>
+  <div>
+    <h1 class="text-3xl text-white pb-5 pt-5 ml-5">{{$page.frontmatter.title}}</h1>
 
     <div
-      class="m-5 bg-white shadow-lg rounded-lg overflow-hidden"
+      class="m-5 bg-white menu-button overflow-hidden"
       v-for="article in $page.frontmatter.articles"
     >
       <div class="sm:flex sm:items-center px-6 py-4">
@@ -11,7 +11,7 @@
           class="block h-16 sm:h-24 rounded-full mx-auto mb-4 sm:mb-0 sm:mr-4 sm:ml-0"
           :src="'../../images/'+article.image"
           :alt="article.title"
-        >
+        />
         <div class="text-center sm:text-left sm:flex-grow">
           <div class="mb-4">
             <p class="text-xl leading-tight text-gray-800">{{article.title}}</p>
@@ -20,7 +20,7 @@
           <div>
             <button
               @click="goToArticle(article.link)"
-              class="text-xs font-semibold rounded-full px-4 py-1 leading-normal bg-white border border-purple text-purple hover:bg-purple hover:text-white"
+              class="text-xs font-semibold rounded-full px-4 py-1 leading-normal bg-black text-white border border-purple text-purple hover:bg-purple hover:text-white"
             >Read More</button>
           </div>
         </div>
