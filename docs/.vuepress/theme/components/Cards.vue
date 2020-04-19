@@ -1,5 +1,10 @@
 <template>
-  <div class="container flex-wrap mx-auto w-full lg:w-full">
+  <div class="p-5 flex-wrap mx-auto w-full">
+    <p class="header-text -mx-5" />
+    <div class="pt-10">
+      <p class="text-4xl text-center text-white">Featured Projects and Initiatives</p>
+    </div>
+
     <div class="px-2 mt-0 lg:mt-2 md:mt-0 sm:mt-0">
       <div class="flex flex-wrap -mx-2">
         <div class="w-full lg:w-1/2 px-2">

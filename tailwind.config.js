@@ -4,7 +4,7 @@ module.exports = {
 	separator: ':',
 	theme: {
 		screens: {
-			sm: '640px',
+			sm: { min: '200px', max: '767px' },
 			md: '768px',
 			lg: '1024px',
 			xl: '1280px',
@@ -147,7 +147,7 @@ module.exports = {
 			'56': '14rem',
 			'64': '16rem',
 		},
-		backgroundColor: theme => theme('colors'),
+		backgroundColor: (theme) => theme('colors'),
 		backgroundPosition: {
 			bottom: 'bottom',
 			center: 'center',
@@ -164,7 +164,7 @@ module.exports = {
 			cover: 'cover',
 			contain: 'contain',
 		},
-		borderColor: theme => ({
+		borderColor: (theme) => ({
 			...theme('colors'),
 			default: theme('colors.gray.300', 'currentColor'),
 		}),
@@ -260,7 +260,7 @@ module.exports = {
 			extrabold: '800',
 			black: '900',
 		},
-		height: theme => ({
+		height: (theme) => ({
 			auto: 'auto',
 			...theme('spacing'),
 			full: '100%',
@@ -357,12 +357,12 @@ module.exports = {
 			'11': '11',
 			'12': '12',
 		},
-		padding: theme => theme('spacing'),
+		padding: (theme) => theme('spacing'),
 		stroke: {
 			current: 'currentColor',
 		},
-		textColor: theme => theme('colors'),
-		width: theme => ({
+		textColor: (theme) => theme('colors'),
+		width: (theme) => ({
 			auto: 'auto',
 			...theme('spacing'),
 			'1/2': '50%',

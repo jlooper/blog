@@ -15,7 +15,9 @@
           <div class="h-56">
             <div class="cursor-pointer" @click="goToSite('https://www.quicknoms.com')">
               <div class="inline-block align-top">
-                <h1 class="text-2xl p-2 text-white text-left">Hi, I'm Jen</h1>
+                <h2
+                  class="text-3xl lg:text-3xl md:text-2xl sm:xl p-2 text-white text-left"
+                >Hi, I'm Jen</h2>
                 <p
                   class="text-2xl lg:text-2xl md:text-xl sm:text-base p-2 text-white text-left"
                 >Developer Advocate</p>
@@ -33,9 +35,6 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="pt-20">
-      <p class="header-text text-4xl text-center text-white">Featured Projects and Initiatives</p>
     </div>
 
     <Cards class="m-10" />
