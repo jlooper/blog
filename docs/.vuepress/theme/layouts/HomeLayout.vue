@@ -19,16 +19,16 @@
                   class="text-3xl lg:text-3xl md:text-2xl sm:xl p-2 text-white text-left"
                 >Hi, I'm Jen</h2>
                 <p
-                  class="text-2xl lg:text-2xl md:text-xl sm:text-base p-2 text-white text-left"
+                  class="text-2xl leading-snug lg:text-2xl md:text-xl sm:text-base p-2 text-white text-left"
                 >Developer Advocate</p>
                 <p
-                  class="text-2xl lg:text-2xl md:text-xl sm:text-base p-2 text-white text-left"
+                  class="text-2xl leading-snug lg:text-2xl md:text-xl sm:text-base p-2 text-white text-left"
                 >Speaker</p>
                 <p
-                  class="text-2xl lg:text-2xl md:text-xl sm:text-base p-2 text-white text-left"
+                  class="text-2xl leading-snug lg:text-2xl md:text-xl sm:text-base p-2 text-white text-left"
                 >Author</p>
                 <p
-                  class="text-2xl lg:text-2xl md:text-xl sm:text-base p-2 text-white text-left"
+                  class="text-2xl leading-snug lg:text-2xl md:text-xl sm:text-base p-2 text-white text-left"
                 >Builder of Interesting Things</p>
               </div>
             </div>
