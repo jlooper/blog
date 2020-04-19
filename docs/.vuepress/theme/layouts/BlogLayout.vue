@@ -6,21 +6,21 @@
       class="m-5 bg-white menu-button overflow-hidden"
       v-for="article in $page.frontmatter.articles"
     >
-      <div class="sm:flex sm:items-center px-6 py-4">
+      <div class="flex px-6 py-6">
         <img
-          class="block h-16 sm:h-24 rounded-full mx-auto mb-4 sm:mb-0 sm:mr-4 sm:ml-0"
+          class="block h-16 rounded-full"
           :src="'../../images/'+article.image"
           :alt="article.title"
         />
-        <div class="text-center sm:text-left sm:flex-grow">
-          <div class="mb-4">
-            <p class="text-xl leading-tight text-gray-800">{{article.title}}</p>
-            <p class="text-base leading-tight text-gray-700">{{article.date}} - {{ article.blurb }}</p>
+        <div class="text-left">
+          <div class="ml-4">
+            <p class="text-xl text-gray-800">{{article.title}}</p>
+            <p class="text-base text-gray-700">{{article.date}} - {{ article.blurb }}</p>
           </div>
-          <div>
+          <div class="m-4">
             <button
               @click="goToArticle(article.link)"
-              class="text-xs font-semibold rounded-full px-4 py-1 leading-normal bg-black text-white border border-purple text-purple hover:bg-purple hover:text-white"
+              class="px-4 py-1 border border-black yellow hover:bg-white hover:text-black"
             >Read More</button>
           </div>
         </div>
