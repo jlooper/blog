@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="mt-0 lg:mt-2 md:mt-0 sm:mt-0">
-      <div class="flex flex-wrap -mx-2">
+      <div class="flex -mx-2">
         <div class="w-full lg:w-1/2 px-2">
           <div class="h-56 float-right">
             <div class="cursor-pointer" @click="goToSite('https://yomamaisa.dev')">
@@ -16,10 +16,18 @@
             <div class="cursor-pointer" @click="goToSite('https://www.quicknoms.com')">
               <div class="inline-block align-top">
                 <h1 class="text-2xl p-2 text-white text-left">Hi, I'm Jen</h1>
-                <p class="text-2xl p-2 text-white text-left">Developer Advocate</p>
-                <p class="text-2xl p-2 text-white text-left">Speaker</p>
-                <p class="text-2xl p-2 text-white text-left">Author</p>
-                <p class="text-2xl p-2 text-white text-left">Builder of Interesting Things</p>
+                <p
+                  class="text-2xl lg:text-2xl md:text-xl sm:text-base p-2 text-white text-left"
+                >Developer Advocate</p>
+                <p
+                  class="text-2xl lg:text-2xl md:text-xl sm:text-base p-2 text-white text-left"
+                >Speaker</p>
+                <p
+                  class="text-2xl lg:text-2xl md:text-xl sm:text-base p-2 text-white text-left"
+                >Author</p>
+                <p
+                  class="text-2xl lg:text-2xl md:text-xl sm:text-base p-2 text-white text-left"
+                >Builder of Interesting Things</p>
               </div>
             </div>
           </div>

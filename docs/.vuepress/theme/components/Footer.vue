@@ -1,7 +1,7 @@
 <template>
   <footer class="footer yellow sticky pin-bottom p-6">
     <div
-      class="text-sans w-full text-base lg:text-xl md:text-sm sm:text-sm block flex-grow flex justify-center items-center w-auto"
+      class="text-sans w-full text-base lg:text-xl md:text-base sm:text-base block flex-grow flex justify-center items-center w-auto"
     >
       &copy 2016-present Ladeez First Media
       <a
@@ -15,7 +15,7 @@
           />
         </svg>
       </a>
-      <a class="m-2 no-underline text-gray-800" href="http://twitter.com/jenlooper">
+      <a class="m-2 no-underline" href="http://twitter.com/jenlooper">
         <svg class="fill-current w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
           <title>Twitter</title>
           <path
