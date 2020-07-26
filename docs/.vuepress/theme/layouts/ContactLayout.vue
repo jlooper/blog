@@ -66,7 +66,7 @@
           <textarea
             cols="50"
             rows="10"
-            class="appearance-none block w-full bg-gray-200 text-white border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+            class="appearance-none block w-full bg-gray-200 border text-gray-700 border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
             id="grid-message"
             type="text"
             placeholder="My message to you"
@@ -104,19 +104,19 @@ export default {
       submitted: false,
       valid: true,
       rules: [
-        firstName => !!firstName,
-        lastName => !!lastName,
-        message => !!message,
-        email => !!email,
-        v => !!v || "This field is required"
-      ]
+        (firstName) => !!firstName,
+        (lastName) => !!lastName,
+        (message) => !!message,
+        (email) => !!email,
+        (v) => !!v || "This field is required",
+      ],
     };
   },
   methods: {
     encode(data) {
       return Object.keys(data)
         .map(
-          key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
+          (key) => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
         )
         .join("&");
     },
@@ -130,8 +130,8 @@ export default {
           firstName: this.firstName,
           lastName: this.lastName,
           email: this.email,
-          message: this.message
-        })
+          message: this.message,
+        }),
       })
         .then(() => {
           alert("Thank you for your email! I will reply as soon as I can.");
@@ -139,7 +139,7 @@ export default {
         .catch(() => {
           alert("Sorry, there seems to have been an error.");
         });
-    }
-  }
+    },
+  },
 };
 </script>
