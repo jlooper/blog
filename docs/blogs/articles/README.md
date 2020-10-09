@@ -274,7 +274,7 @@ articles:
             'image': '11.jpg',
             'blurb': 'For the record, I don’t think anyone involved in either writing or reading this article is an idiot. But sometimes a topic makes you feel like one, and the engines that power JavaScript code is one of those topics – at least for me.',
             'date': '09/21/2015',
-            'link': 'https://developer.telerik.com/featured/a-guide-to-javascript-engines-for-idiots/',
+            'link': 'http://www.softwaremag.com/javascript-engines/',
         },
         {
             'title': 'The Future of Beacons and Mobile',
