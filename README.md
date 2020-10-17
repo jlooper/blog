@@ -9,7 +9,7 @@ tagline: [
 layout: HomeLayout
 footer: MIT Licensed | Copyright © 2018-present Evan You
 cards: [
-    {'title': 'Vue Vixens', 'image': 'vuevixens_logo.png', 'blurb': 'Vue Vixens offers free workshops and meetups for foxy people who identify as women. Join us at a local skulk or in a tech conference!','link':'https://www.vuevixens.org'},
+    {'title': 'Front-End Foxes', 'image': 'vuevixens_logo.png', 'blurb': 'Front-End Foxes offers free workshops and meetups for people who identify as women. Join us at a local skulk or in a tech conference!','link':'https://www.frontendfoxes.org'},
     {'title': 'Elocute', 'image': 'elocute_logo.png', 'blurb': 'Elocute is a mobile and web app designed to replace the language lab. Students and teachers of second languages, rejoice!','link':'http://www.elocute.me'},
     {'title': 'QuickNoms', 'image': 'quicknoms_logo.png', 'blurb': 'QuickNoms is a web and mobile app that helps students find recipes that are quick and easy. Five ingredients, fifteen minutes...QuickNoms!','link':'http://quicknoms.com'},
     {'title': 'ThingLearn', 'image': 'thinglearn_logo.png', 'blurb': 'Thinglearn is a suite of products designed to teach kids about the internet of things in a fun, interactive, hands-on way. Build things and learn the science behind them!','link':'http://thinglearn.com'},
