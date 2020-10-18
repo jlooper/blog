@@ -23,9 +23,9 @@
 	},
 	"homepage": "https://github.com/jlooper/blog/#readme",
 	"dependencies": {
-		"autoprefixer": "9.6.1",
-		"tailwindcss": "1.1.2",
-		"vuepress": "1.2.0"
+		"autoprefixer": "^9.6.1",
+		"tailwindcss": "^1.9.4",
+		"vuepress": "^1.7.1"
 	},
 	"scripts": {
 		"docs:build": "vuepress build docs",
