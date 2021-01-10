@@ -8,7 +8,7 @@
 		"url": "git+https://github.com/jlooper/blog.git"
 	},
 	"directories": {
-		"doc": "docs"
+		"doc": "blog"
 	},
 	"keywords": [
 		"Jen Looper",
@@ -23,12 +23,14 @@
 	},
 	"homepage": "https://github.com/jlooper/blog/#readme",
 	"dependencies": {
-		"autoprefixer": "^9.6.1",
-		"tailwindcss": "^1.9.4",
-		"vuepress": "^1.7.1"
+		"@tailwindcss/postcss7-compat": "^2.0.2",
+		"autoprefixer": "^9.8.6",
+		"postcss": "^7.0.35",
+		"tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
+		"vuepress": "^1.5.3"
 	},
 	"scripts": {
-		"docs:build": "vuepress build docs",
-		"dev": "vuepress dev docs"
+		"build": "vuepress build blog",
+		"dev": "vuepress dev blog"
 	}
 }
