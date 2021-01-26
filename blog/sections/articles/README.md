@@ -4,9 +4,9 @@ title: Articles
 articles:
     [
          {
-            'title': 'Machine Learning for Artisans: Classifying Lacemaking Techniques ',
+            'title': 'Machine Learning for Artisans: Classifying Lacemaking Techniques',
             'image': '57.png',
-            'blurb': 'The use of advanced inference techniques when visiting a museum collection may not be obvious. Why would machine learning be useful for analyzing antique textiles? Let\'s learn how to use Lobe.ai to create a classification model to determine different types of lace.',
+            'blurb': 'The use of advanced inference techniques when visiting a museum collection may not be obvious. Learn how to use Lobe.ai to create a classification model to determine different types of lace.',
             'date': '01/22/2021',
             'link': 'https://dev.to/azure/machine-learning-for-artisans-classifying-lacemaking-techniques-1g87',
         },{
