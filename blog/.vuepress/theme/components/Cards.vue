@@ -2,40 +2,64 @@
   <div class="p-5 flex-wrap mx-auto w-full">
     <p class="header-text -mx-5" />
     <div class="pt-10">
-      <p class="text-4xl text-center text-white">Featured Projects and Initiatives</p>
+      <p class="text-4xl text-center text-white">
+        Featured Projects and Initiatives
+      </p>
     </div>
 
     <div class="px-2 mt-0 lg:mt-2 md:mt-0 sm:mt-0">
       <div class="flex flex-wrap -mx-2">
         <div class="w-full lg:w-1/2 px-2">
-          <div class="h-56 lg:h-56 md:h-56 sm:h-auto bg-gray-100 card">
-            <div
-              class="inline-block align-top cursor-pointer"
-              @click="goToSite('https://frontendfoxes.org')"
-            >
+          <div
+            class="flex p-6 bg-white card cursor-pointer"
+            @click="goToSite('https://frontendfoxes.org')"
+          >
+            <div class="w-full">
+              <img
+                src="/images/ff-logo.png"
+                alt="Front-End Foxes"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="inline-block align-top">
               <p
-                class="text-4xl lg:text-4xl md:text-2xl sm:text-xl p-2 text-center font-bold underline"
-              >Front-End Foxes</p>
-
+                class="text-4xl lg:text-4xl md:text-2xl sm:text-xl p-2 font-bold text-center underline"
+              >
+                Front-End Foxes School
+              </p>
               <p
                 class="inline-block text-2xl lg:text-2xl md:text-lg sm:text-lg p-2 align-top"
-              >An international 501(c)(3) nonprofit offering workshops on front-end technologies for women.</p>
+              >
+                A new kind of boot camp, for women developers by women
+                developers.
+              </p>
             </div>
           </div>
         </div>
-        <div class="w-full lg:w-1/2 px-2">
-          <div class="h-56 lg:h-56 md:h-56 sm:h-auto bg-gray-100 card">
-            <div
-              class="inline-block align-top cursor-pointer"
-              @click="goToSite('https://practicebuddyapp.com')"
-            >
-              <p
-                class="text-4xl lg:text-4xl md:text-2xl sm:text-xl p-2 text-center font-bold underline"
-              >Practice Buddy</p>
 
+        <div class="w-full lg:w-1/2 px-2">
+          <div
+            class="flex p-6 bg-white card cursor-pointer"
+            @click="goToSite('https://vuevixens.org')"
+          >
+            <div class="w-full">
+              <img
+                src="/images/vv-logo.png"
+                alt="Vue Vixens"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="inline-block align-top">
+              <p
+                class="text-4xl lg:text-4xl md:text-2xl sm:text-xl p-2 font-bold text-center underline"
+              >
+                Front-End Foxes
+              </p>
               <p
                 class="inline-block text-2xl lg:text-2xl md:text-lg sm:text-lg p-2 align-top"
-              >An app for music teachers and students. Monitor, record progress, get feedback.</p>
+              >
+                An international 501(c)(3) nonprofit for women developers.
+              </p>
             </div>
           </div>
         </div>
@@ -45,30 +69,54 @@
     <div class="px-2 mt-0 lg:mt-2 md:mt-0 sm:mt-0">
       <div class="flex flex-wrap -mx-2">
         <div class="w-full lg:w-1/2 px-2">
-          <div class="h-56 lg:h-56 md:h-56 sm:h-auto bg-gray-100 card">
-            <div class="cursor-pointer" @click="goToSite('https://yomamaisa.dev')">
-              <div class>
-                <p
-                  class="text-4xl lg:text-4xl md:text-2xl sm:text-xl p-2 font-bold text-center underline"
-                >Yo, Mama is a Dev!</p>
-                <p
-                  class="inline-block text-2xl lg:text-2xl md:text-lg sm:text-lg p-2 align-top"
-                >Celebrating developer moms.</p>
-              </div>
+          <div
+            class="flex p-6 bg-white card cursor-pointer"
+            @click="goToSite('https://aka.ms/webdev-beginners')"
+          >
+            <div class="w-40">
+              <img
+                src="/images/ada.png"
+                alt="Web Dev for Beginners"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="inline-block align-top">
+              <p
+                class="text-4xl lg:text-4xl md:text-2xl sm:text-xl p-2 font-bold text-center underline"
+              >
+               Web Dev for Beginners
+              </p>
+              <p
+                class="inline-block text-2xl lg:text-2xl md:text-lg sm:text-lg p-2 align-top"
+              >
+                A curriculum built by our team at Microsoft
+              </p>
             </div>
           </div>
         </div>
         <div class="w-full lg:w-1/2 px-2">
-          <div class="h-56 lg:h-56 md:h-56 sm:h-auto bg-gray-100 card">
-            <div class="cursor-pointer" @click="goToSite('https://www.quicknoms.com')">
-              <div class="inline-block align-top">
-                <p
-                  class="underline text-4xl lg:text-4xl md:text-2xl sm:text-xl p-2 font-bold text-center"
-                >QuickNoms</p>
-                <p
-                  class="inline-block text-2xl lg:text-2xl md:text-lg sm:text-lg p-2 align-top"
-                >5 Ingredients, 15 Minutes: QuickNoms! Recipes for busy people.</p>
-              </div>
+          <div
+            class="flex p-6 bg-white card cursor-pointer"
+            @click="goToSite('https://aka.ms/ombromanie-code')"
+          >
+            <div class="w-40">
+              <img
+                src="/images/ombro.png"
+                alt="Ombromanie"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="inline-block align-top">
+              <p
+                class="text-4xl lg:text-4xl md:text-2xl sm:text-xl p-2 font-bold text-center underline"
+              >
+               Ombromanie: Hand Shadows
+              </p>
+              <p
+                class="inline-block text-2xl lg:text-2xl md:text-lg sm:text-lg p-2 align-top"
+              >
+                Telling stories with your hands, on the web.
+              </p>
             </div>
           </div>
         </div>
@@ -79,30 +127,112 @@
     <div class="px-2 mt-0 lg:mt-2 md:mt-0 sm:mt-0">
       <div class="flex flex-wrap -mx-2">
         <div class="w-full lg:w-1/2 px-2">
-          <div class="h-56 lg:h-56 md:h-56 sm:h-auto bg-gray-100 card">
-            <div class="cursor-pointer" @click="goToSite('https://www.snappysquirrel.com')">
-              <div class>
-                <p
-                  class="text-4xl lg:text-4xl md:text-2xl sm:text-xl p-2 font-bold text-center underline"
-                >Snappy Squirrel</p>
-                <p
-                  class="inline-block text-2xl lg:text-2xl md:text-lg sm:text-lg p-2 align-top"
-                >Apps teaching personal finance for kids.</p>
-              </div>
+          <div
+            class="flex p-6 bg-white card cursor-pointer"
+            @click="goToSite('https://practicebuddyapp.com')"
+          >
+            <div class="w-40">
+              <img
+                src="/images/practicebuddy_logo.png"
+                alt="Practice Buddy"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="inline-block align-top">
+              <p
+                class="text-4xl lg:text-4xl md:text-2xl sm:text-xl p-2 font-bold text-center underline"
+              >
+                Practice Buddy
+              </p>
+              <p
+                class="inline-block text-2xl lg:text-2xl md:text-lg sm:text-lg p-2 align-top"
+              >
+                An app for music teachers and students.
+              </p>
             </div>
           </div>
         </div>
         <div class="w-full lg:w-1/2 px-2">
-          <div class="h-56 lg:h-56 md:h-56 sm:h-auto bg-gray-100 card">
-            <div class="cursor-pointer" @click="goToSite('https://www.thinglearn.com')">
-              <div class="inline-block align-top">
-                <p
-                  class="text-4xl lg:text-4xl md:text-2xl sm:text-xl p-2 font-bold text-center underline"
-                >ThingLearn</p>
-                <p
-                  class="inline-block text-2xl lg:text-2xl md:text-lg sm:text-lg p-2 align-top"
-                >Activities teaching kids about the internet of things.</p>
-              </div>
+          <div
+            class="flex p-6 bg-white card cursor-pointer"
+            @click="goToSite('https://snappysquirrel.com')"
+          >
+            <div class="w-40">
+              <img
+                src="/images/snappy_logo.png"
+                alt="Snappy Squirrel"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="inline-block align-top">
+              <p
+                class="text-4xl lg:text-4xl md:text-2xl sm:text-xl p-2 font-bold text-center underline"
+              >
+                Snappy Squirrel
+              </p>
+              <p
+                class="inline-block text-2xl lg:text-2xl md:text-lg sm:text-lg p-2 align-top"
+              >
+                E-Books teaching personal finance for kids.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--row 3-->
+    <div class="px-2 mt-0 lg:mt-2 md:mt-0 sm:mt-0">
+      <div class="flex flex-wrap -mx-2">
+        <div class="w-full lg:w-1/2 px-2">
+          <div
+            class="flex p-6 bg-white card cursor-pointer"
+            @click="goToSite('https://zines.jenlooper.com')"
+          >
+            <div class="w-40">
+              <img
+                src="/images/mazine_logo.png"
+                alt="Mazines"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="inline-block align-top">
+              <p
+                class="text-4xl lg:text-4xl md:text-2xl sm:text-xl p-2 font-bold text-center underline"
+              >
+                MaZine Learning
+              </p>
+              <p
+                class="inline-block text-2xl lg:text-2xl md:text-lg sm:text-lg p-2 align-top"
+              >
+                Learn about Machine Learning with Free Printable Zines.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 px-2">
+          <div
+            class="flex p-6 bg-white card cursor-pointer"
+            @click="goToSite('https://thinglearn.com')"
+          >
+            <div class="w-40">
+              <img
+                src="/images/thinglearn_logo.png"
+                alt="Thing Learn"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="inline-block align-top">
+              <p
+                class="text-4xl lg:text-4xl md:text-2xl sm:text-xl p-2 font-bold text-center underline"
+              >
+                ThingLearn
+              </p>
+              <p
+                class="inline-block text-2xl lg:text-2xl md:text-lg sm:text-lg p-2 align-top"
+              >
+                Activities teaching kids about the internet of things.
+              </p>
             </div>
           </div>
         </div>
@@ -116,8 +246,8 @@ export default {
   methods: {
     goToSite(link) {
       window.open(link, "_blank");
-    }
-  }
+    },
+  },
 };
 </script>
 
