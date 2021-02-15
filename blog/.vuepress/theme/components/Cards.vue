@@ -11,7 +11,7 @@
       <div class="flex flex-wrap -mx-2">
         <div class="w-full lg:w-1/2 px-2">
           <div
-            class="flex p-6 bg-white card cursor-pointer"
+            class="h-64 lg:h-64 md:h-64 sm:h-auto flex p-6 bg-white card cursor-pointer"
             @click="goToSite('https://frontendfoxes.org')"
           >
             <div class="w-full">
@@ -39,7 +39,7 @@
 
         <div class="w-full lg:w-1/2 px-2">
           <div
-            class="flex p-6 bg-white card cursor-pointer"
+            class="h-64 lg:h-64 md:h-64 sm:h-auto flex p-6 bg-white card cursor-pointer"
             @click="goToSite('https://vuevixens.org')"
           >
             <div class="w-full">
@@ -70,7 +70,7 @@
       <div class="flex flex-wrap -mx-2">
         <div class="w-full lg:w-1/2 px-2">
           <div
-            class="flex p-6 bg-white card cursor-pointer"
+            class="h-64 lg:h-64 md:h-64 sm:h-auto flex p-6 bg-white card cursor-pointer"
             @click="goToSite('https://aka.ms/webdev-beginners')"
           >
             <div class="w-40">
@@ -84,7 +84,7 @@
               <p
                 class="text-4xl lg:text-4xl md:text-2xl sm:text-xl p-2 font-bold text-center underline"
               >
-               Web Dev for Beginners
+                Web Dev for Beginners
               </p>
               <p
                 class="inline-block text-2xl lg:text-2xl md:text-lg sm:text-lg p-2 align-top"
@@ -96,7 +96,7 @@
         </div>
         <div class="w-full lg:w-1/2 px-2">
           <div
-            class="flex p-6 bg-white card cursor-pointer"
+            class="h-64 lg:h-64 md:h-64 sm:h-auto flex p-6 bg-white card cursor-pointer"
             @click="goToSite('https://aka.ms/ombromanie-code')"
           >
             <div class="w-40">
@@ -110,7 +110,7 @@
               <p
                 class="text-4xl lg:text-4xl md:text-2xl sm:text-xl p-2 font-bold text-center underline"
               >
-               Ombromanie: Hand Shadows
+                Ombromanie: Hand Shadows
               </p>
               <p
                 class="inline-block text-2xl lg:text-2xl md:text-lg sm:text-lg p-2 align-top"
@@ -128,7 +128,7 @@
       <div class="flex flex-wrap -mx-2">
         <div class="w-full lg:w-1/2 px-2">
           <div
-            class="flex p-6 bg-white card cursor-pointer"
+            class="h-64 lg:h-64 md:h-64 sm:h-auto flex p-6 bg-white card cursor-pointer"
             @click="goToSite('https://practicebuddyapp.com')"
           >
             <div class="w-40">
@@ -154,7 +154,7 @@
         </div>
         <div class="w-full lg:w-1/2 px-2">
           <div
-            class="flex p-6 bg-white card cursor-pointer"
+            class="h-64 lg:h-64 md:h-64 sm:h-auto flex p-6 bg-white card cursor-pointer"
             @click="goToSite('https://snappysquirrel.com')"
           >
             <div class="w-40">
@@ -186,7 +186,7 @@
       <div class="flex flex-wrap -mx-2">
         <div class="w-full lg:w-1/2 px-2">
           <div
-            class="flex p-6 bg-white card cursor-pointer"
+            class="h-64 lg:h-64 md:h-64 sm:h-auto flex p-6 bg-white card cursor-pointer"
             @click="goToSite('https://zines.jenlooper.com')"
           >
             <div class="w-40">
@@ -212,7 +212,7 @@
         </div>
         <div class="w-full lg:w-1/2 px-2">
           <div
-            class="flex p-6 bg-white card cursor-pointer"
+            class="h-64 lg:h-64 md:h-64 sm:h-auto flex p-6 bg-white card cursor-pointer"
             @click="goToSite('https://thinglearn.com')"
           >
             <div class="w-40">
