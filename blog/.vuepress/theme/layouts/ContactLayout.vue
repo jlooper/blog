@@ -1,7 +1,7 @@
 <template>
   <div class="m-10">
     <h2
-      class="tracking-widest pt-4 pb-4 uppercase font-sans font-semibold text-gray-700 text-3xl"
+      class="hidden lg:block md:block sm:hidden tracking-widest pt-4 pb-4 uppercase font-sans font-semibold text-gray-700 text-3xl"
     >
       Contact Me
     </h2>

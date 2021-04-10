@@ -12,10 +12,10 @@
     >
       Hello, I'm Jen
     </div>
-    <div class="tracking-wide pt-2 font-sans text-gray-600 text-lg">
+    <div class="tracking-wide pt-2 font-sans text-gray-600 text-lg hidden lg:block md:block">
       Education Developer Advocate Lead, Microsoft
     </div>
-    <div class="grid grid-cols-2">
+    <div class="grid grid-cols-2 hidden lg:block md:block sm:hidden">
       <a class="m-2 no-underline" href="http://github.com/jlooper">
         <svg
           class="fill-current text-gray-600 w-8 h-8"
