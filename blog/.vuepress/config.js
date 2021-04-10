@@ -10,6 +10,7 @@ module.exports = {
 		search: false,
 		lastUpdated: 'Last Updated',
 		nav: [
+			{ text: 'Featured', link: '/' },
 			{ text: 'Articles', link: '/sections/articles/' },
 			{ text: 'About', link: '/sections/about/' },
 			{ text: 'Contact', link: '/sections/contact/' },

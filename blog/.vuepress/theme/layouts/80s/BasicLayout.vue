@@ -1,10 +1,10 @@
 <template>
-  <div class="m-6 ">
-    <h1 class="tracking-widest pt-4 pb-4 uppercase font-sans font-semibold text-gray-700 text-3xl">
+  <div>
+    <h1 class="text-3xl pb-5 pt-5 ml-5 font-sans text-white">
       {{ $page.frontmatter.title }}
     </h1>
 
-    <div class="font-sans text-gray-600 text-xl">
+    <div class="text-white p-5">
       <Content />
     </div>
   </div>

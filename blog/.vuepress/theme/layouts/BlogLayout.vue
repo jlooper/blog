@@ -1,33 +1,29 @@
 <template>
-  <div>
-    <h1 class="text-3xl text-white pb-5 pt-5 ml-5">
-      {{ $page.frontmatter.title }}
-    </h1>
-
-    <div
-      class="m-5 bg-white menu-button overflow-hidden"
-      v-for="article in $page.frontmatter.articles"
+  <div class="m-6 ">
+    <h2
+      class="tracking-widest pt-4 pb-4 uppercase font-sans font-semibold text-gray-700 text-3xl"
     >
-      <div class="flex px-6 py-6">
-        <img
-          class="block h-16 rounded-full"
-          :src="'../../images/' + article.image"
-          :alt="article.title"
-        />
-        <div class="text-left">
-          <div class="ml-4">
-            <p class="text-xl text-gray-800">{{ article.title }}</p>
-            <p class="text-base text-gray-700">
-              {{ article.date }} - {{ article.blurb }}
-            </p>
-          </div>
-          <div class="m-4">
-            <button
-              @click="goToArticle(article.link)"
-              class="px-4 py-1 font-sans border border-black yellow hover:bg-red-600 hover:text-white"
-            >
-              Read More
-            </button>
+      {{ $page.frontmatter.title }}
+    </h2>
+
+    <div class="cursor-pointer">
+      <div
+        class="m-5 bg-white menu-button overflow-hidden"
+        v-for="article in $page.frontmatter.articles"
+      >
+        <div class="flex font-sans px-6 py-6 border-gray-300 border-b-2">
+          <img
+            class="block h-16 rounded-full shadow-default"
+            :src="'../../images/' + article.image"
+            :alt="article.title"
+          />
+          <div class="text-left">
+            <div class="ml-4" @click="goToArticle(article.link)">
+              <p class="text-2xl text-gray-700">{{ article.title }}</p>
+              <p class="text-gray-600 pt-3 pb-5 text-xl">
+                {{ article.date }} - {{ article.blurb }}
+              </p>
+            </div>
           </div>
         </div>
       </div>

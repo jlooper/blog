@@ -1,46 +1,31 @@
 <template>
-  <div>
-    <h1 class="text-3xl pb-5 pt-5 ml-5 text-white">
+  <div class="m-6">
+    <h2
+      class="tracking-widest pt-4 pb-4 uppercase font-sans font-semibold text-gray-700 text-3xl"
+    >
       {{ $page.frontmatter.title }}
-    </h1>
-    <div class="pl-5 text-white">
-      <p>
-        Here are a few of my talks from 2018 - 2020. Click the link below for
-        more.
-      </p>
-      <div v-for="video in ytvideos" :key="video.id" class="m-10 text-center">
-        <iframe
-          class="video"
-          :src="'https://www.youtube.com/embed/' + video + ''"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-
-      <div
-        v-for="video in othervideos"
-        :key="video.id"
-        class="m-10 text-center"
-      >
-        <iframe
-          class="video"
-          :src="video"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-
-      <p class="text-center pb-5">
+    </h2>
+    <div>
+      <p class="text-gray-600 pt-3 pb-3 text-xl">
+        Here are a few of my talks from 2018 - 2020.
         <a
           class="underline"
           href="https://www.youtube.com/playlist?list=PL8bLS57CI8i2idWqYbsvu9IOwjTGqReaa"
-          >View my playlist for more talks</a
-        >. If you're interested in booking me to speak at your conference or
-        meetup, please use the
-        <a class="underline" href="/blog/contact">contact form</a>. Thanks!
+          >View my playlist for more</a
+        >.
       </p>
+
+      <div class="grid grid-cols-2 grid-rows-3 gap-2">
+        <div class="m-3 bg-gray-200" v-for="video in ytvideos" :key="video.id">
+          <iframe
+            class="w-full h-64"
+            :src="'https://www.youtube.com/embed/' + video + ''"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
     </div>
   </div>
 </template>
@@ -60,7 +45,6 @@ export default {
         "H4Rnh01ywJk",
         "dJTRjBHFLFU",
       ],
-      othervideos: ["https://halfstackconf.streameventlive.com/embed/53"],
     };
   },
 };
