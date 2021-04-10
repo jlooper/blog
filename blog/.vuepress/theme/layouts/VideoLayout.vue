@@ -15,7 +15,7 @@
         >.
       </p>
 
-      <div class="grid grid-cols-2 grid-rows-3 gap-2">
+      <div class="grid grid-cols-2 grid-rows-3 gap-2 sm:grid-cols-1">
         <div class="m-3 bg-gray-200" v-for="video in ytvideos" :key="video.id">
           <iframe
             class="w-full h-64"
