@@ -8,7 +8,7 @@
       />
     </div>
     <div
-      class="tracking-widest pt-4 uppercase font-sans font-semibold text-gray-700 text-4xl"
+      class="hidden lg:block md:block sm:hidden tracking-widest pt-4 uppercase font-sans font-semibold text-gray-700 text-4xl"
     >
       Hello, I'm Jen
     </div>
