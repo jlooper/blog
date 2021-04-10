@@ -5,7 +5,7 @@
         <img
           src="images/ff-logo.png"
           alt="Front-End Foxes"
-          class="flex-none w-18 h-18 rounded-lg object-cover bg-gray-100"
+          class="w-16 md:w-32 lg:w-48 sm:hidden flex-none w-18 h-18 rounded-lg object-cover bg-gray-100"
           width="144"
           height="144"
         />
@@ -34,7 +34,7 @@
         <img
           src="images/ada.png"
           alt="Ada Lovelace graphic"
-          class="flex-none w-18 h-18 rounded-lg object-cover bg-gray-100"
+          class="w-16 md:w-32 lg:w-48 sm:hidden flex-none w-18 h-18 rounded-lg object-cover bg-gray-100"
           width="144"
           height="144"
         />
@@ -63,7 +63,7 @@
         <img
           src="images/mazine_logo.png"
           alt="Professor Puff graphic"
-          class="flex-none w-18 h-18 rounded-lg object-cover bg-gray-100"
+          class="w-16 md:w-32 lg:w-48 sm:hidden flex-none w-18 h-18 rounded-lg object-cover bg-gray-100"
           width="144"
           height="144"
         />
@@ -92,7 +92,7 @@
         <img
           src="images/ombro.png"
           alt="Ombromanie hand shadows graphic"
-          class="flex-none w-18 h-18 rounded-lg object-cover bg-gray-100"
+          class="w-16 md:w-32 lg:w-48 sm:hidden flex-none w-18 h-18 rounded-lg object-cover bg-gray-100"
           width="144"
           height="144"
         />
@@ -120,7 +120,7 @@
         <img
           src="images/snappy_logo.png"
           alt="Snappy Squirrel graphic"
-          class="flex-none w-18 h-18 rounded-lg object-cover bg-gray-100"
+          class="w-16 md:w-32 lg:w-48 sm:hidden flex-none w-18 h-18 rounded-lg object-cover bg-gray-100"
           width="144"
           height="144"
         />
@@ -148,7 +148,7 @@
         <img
           src="images/practicebuddy_logo.png"
           alt="Practice Buddy graphic"
-          class="flex-none w-18 h-18 rounded-lg object-cover bg-gray-100"
+          class="w-16 md:w-32 lg:w-48 sm:hidden flex-none w-18 h-18 rounded-lg object-cover bg-gray-100"
           width="144"
           height="144"
         />
@@ -176,7 +176,7 @@
         <img
           src="images/thinglearn_logo.png"
           alt="ThingLearn graphic"
-          class="flex-none w-18 h-18 rounded-lg object-cover bg-gray-100"
+          class="w-16 md:w-32 lg:w-48 sm:hidden flex-none w-18 h-18 rounded-lg object-cover bg-gray-100"
           width="144"
           height="144"
         />
@@ -204,7 +204,7 @@
         <img
           src="images/quicknoms_logo.png"
           alt="QuickNoms graphic"
-          class="flex-none w-18 h-18 rounded-lg object-cover bg-gray-100"
+          class="w-16 md:w-32 lg:w-48 sm:hidden flex-none w-18 h-18 rounded-lg object-cover bg-gray-100"
           width="144"
           height="144"
         />
