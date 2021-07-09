@@ -46,10 +46,39 @@
           </h2>
           <h3 class="text-gray-600 pt-3 pb-5 text-xl">
             24 lessons, 12 weeks, web development for all. Built by a
-            cross-company team at Microsoft, free for all.
+            cross-company team at Microsoft that I led, free for all.
           </h3>
           <p
             @click="goToSite('https://aka.ms/webdev-beginners')"
+            class="text-gray-600 cursor-pointer text-xl text-semibold underline pb-4"
+          >
+            learn more
+          </p>
+
+          <hr class="text-gray-400" />
+        </div>
+      </article>
+
+      <article class="p-4 flex space-x-4">
+        <img
+          src="images/turing.png"
+          alt="Turing graphic"
+          class="w-16 md:w-32 lg:w-48 sm:hidden flex-none w-18 h-18 rounded-lg object-cover bg-gray-100"
+          width="144"
+          height="144"
+        />
+        <div class="min-w-0 relative flex-auto">
+          <h2
+            class="uppercase tracking-wide text-2xl font-semibold text-gray-700 mb-0.5"
+          >
+            Machine Learning for Beginners: A Curriculum
+          </h2>
+          <h3 class="text-gray-600 pt-3 pb-5 text-xl">
+            25 lessons, 12 weeks, web development for all. Built by a
+            cross-company team at Microsoft that I led, free for all.
+          </h3>
+          <p
+            @click="goToSite('https://aka.ms/ml-beginners')"
             class="text-gray-600 cursor-pointer text-xl text-semibold underline pb-4"
           >
             learn more
