@@ -1,10 +1,22 @@
 <template>
   <nav
-    class="sticky border-gray-300 border-b-2 flex items-center justify-between flex-wrap text-left pr-0 lg:pr-5 md:pr-3 sm:pr-0 bg-white z-20"
+    class="
+      sticky
+      border-gray-300 border-b-2
+      flex
+      items-center
+      justify-between
+      flex-wrap
+      text-left
+      pr-0
+      lg:pr-5
+      md:pr-3
+      sm:pr-0
+      bg-white
+      z-20
+    "
   >
-    <div
-      class="w-1/2 md:w-1/4 block"
-    ></div>
+    <div class="w-1/2 md:w-1/4 block"></div>
 
     <div v-on:click="openNav()" class="lg:hidden">
       <button class="menu-button flex px-3 py-3 mt-3 mr-2 border">
@@ -20,11 +32,27 @@
     </div>
 
     <div class="w-full block justify-end lg:flex">
-      <div class="nav-text text-med lg:flex-grow mt-4 mb-4 ">
+      <AlgoliaSearchBox v-if="isAlgoliaSearch" :options="algolia" />
+
+      <div class="nav-text text-med lg:flex-grow mt-4 mb-4">
         <span v-for="item in $site.themeConfig.nav">
           <span :class="hidden">
             <router-link
-              class="font-sans uppercase font-normal tracking-wider text-gray-600 mr-0 lg:mr-5 md:mr-3 sm:mr-2 lg:mt-0 no-underline hover:text-gray-600 hover:underline"
+              class="
+                font-sans
+                uppercase
+                font-normal
+                tracking-wider
+                text-gray-600
+                mr-0
+                lg:mr-5
+                md:mr-3
+                sm:mr-2
+                lg:mt-0
+                no-underline
+                hover:text-gray-600
+                hover:underline
+              "
               :to="$withBase(item.link)"
             >
               {{ item.text }}
@@ -38,8 +66,25 @@
 </template>
 
 <script>
+import AlgoliaSearchBox from "./AlgoliaSearchBox.vue";
+
 export default {
   name: "Nav",
+  components: {
+    AlgoliaSearchBox,
+  },
+
+  computed: {
+    algolia() {
+      return (
+        this.$themeLocaleConfig.algolia || this.$site.themeConfig.algolia || {}
+      );
+    },
+    isAlgoliaSearch() {
+      return this.algolia && this.algolia.apiKey && this.algolia.indexName;
+    },
+  },
+
   data() {
     return {
       hidden: "lg:inline-block md:hidden sm:hidden hidden",

@@ -2,18 +2,37 @@
   <div class="logo-title border-gray-300 border-r-2 grid justify-items-center">
     <div class="title">
       <img
-        class="rounded-full shadow-sm"
+        @click="goHome()"
+        class="rounded-full shadow-sm cursor-pointer"
         src="/images/profile.jpg"
         alt="Jen Looper"
       />
     </div>
     <div
-      class="hidden lg:block md:block sm:hidden tracking-widest pt-4 uppercase font-sans font-semibold text-gray-700 text-4xl"
+      class="
+        hidden
+        lg:block
+        md:block
+        sm:hidden
+        tracking-widest
+        pt-4
+        uppercase
+        font-sans font-semibold
+        text-gray-700 text-4xl
+      "
     >
       Hello, I'm Jen
     </div>
     <div
-      class="tracking-wide pt-2 font-sans text-gray-600 text-lg hidden lg:block md:block"
+      class="
+        tracking-wide
+        pt-2
+        font-sans
+        text-gray-600 text-lg
+        hidden
+        lg:block
+        md:block
+      "
     >
       Education Developer Advocate Lead, Microsoft
     </div>
@@ -47,3 +66,14 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: "Home",
+  methods: {
+    goHome() {
+      window.location.href = "/";
+    },
+  },
+};
+</script>
