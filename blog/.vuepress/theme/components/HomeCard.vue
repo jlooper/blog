@@ -34,7 +34,7 @@
         md:block
       "
     >
-      Education Developer Advocate Lead, Microsoft
+      Principal Education Developer Advocate Lead, Microsoft
     </div>
     <div class="hidden lg:block md:block">
       <div class="grid grid-cols-2">

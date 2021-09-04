@@ -6,7 +6,7 @@
       {{ $page.frontmatter.title }}
     </h2>
 
-    <div class="font-sans text-gray-600 text-xl">
+    <div class="font-sans text-gray-600 text-xl ">
       <Content />
     </div>
   </div>
@@ -17,3 +17,4 @@ export default {
   name: "BasicLayout",
 };
 </script>
+
