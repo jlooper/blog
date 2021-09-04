@@ -10,10 +10,6 @@
     </div>
     <div
       class="
-        hidden
-        lg:block
-        md:block
-        sm:hidden
         tracking-widest
         pt-4
         uppercase
@@ -29,14 +25,12 @@
         pt-2
         font-sans
         text-gray-600 text-lg
-        hidden
-        lg:block
-        md:block
+        
       "
     >
       Principal Education Developer Advocate Lead, Microsoft
     </div>
-    <div class="hidden lg:block md:block">
+   
       <div class="grid grid-cols-2">
         <a class="m-2 no-underline" href="http://github.com/jlooper">
           <svg
@@ -62,8 +56,9 @@
             />
           </svg>
         </a>
-      </div>
+      
     </div>
+    
   </div>
 </template>
 

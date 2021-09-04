@@ -1,7 +1,7 @@
 <template>
   <form
     id="search-form"
-    class="pt-2 relative mx-auto text-gray-600"
+    class="hidden lg:inline-block pt-2 relative mx-auto text-gray-600"
     role="search"
   >
     <input
