@@ -141,6 +141,14 @@
 
 @media screen and (max-width: 960px),
 print {
+
+    // don't animate on mobile
+    .fadeInDown {
+        -webkit-animation-name: none;
+        -moz-animation-name: none;
+        -o-animation-name: none;
+        animation-name: none;
+    }
     .sidebar {
         width: 100%;
         position: absolute;
