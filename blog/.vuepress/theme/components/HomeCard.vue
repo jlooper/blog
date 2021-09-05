@@ -1,9 +1,9 @@
 <template>
-  <div class="logo-title border-gray-300 border-r-2 sm:border-none grid justify-items-center">
+  <div class="logo-title border-gray-300 border-r-2 sm:border-none grid sm:block sm:m-auto justify-items-center">
     <div class="title">
       <img
         @click="goHome()"
-        class="rounded-full shadow-sm cursor-pointer"
+        class="rounded-full shadow-sm cursor-pointer m-auto"
         src="/images/profile.jpg"
         alt="Jen Looper"
       />
@@ -24,7 +24,7 @@
       Principal Education Developer Advocate Lead, Microsoft
     </div>
 
-    <div class="grid grid-cols-2">
+    <div class="grid grid-cols-2 sm:hidden">
       <a class="m-2 no-underline" href="http://github.com/jlooper">
         <svg
           class="fill-current text-gray-600 w-8 h-8 sm:w-4 sm:h-4"
