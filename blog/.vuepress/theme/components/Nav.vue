@@ -32,10 +32,10 @@
     </div>
 
     <div class="w-full block justify-end lg:flex">
-      <AlgoliaSearchBox v-if="isAlgoliaSearch" :options="algolia" />
+      <!--<AlgoliaSearchBox v-if="isAlgoliaSearch" :options="algolia" />-->
 
       <div class="nav-text text-med lg:flex-grow mt-4 mb-4">
-        <span v-for="item in $site.themeConfig.nav">
+        <span v-for="item in $site.themeConfig.nav" :key="item.id">
           <span :class="hidden">
             <router-link
               class="
@@ -66,13 +66,13 @@
 </template>
 
 <script>
-import AlgoliaSearchBox from "./AlgoliaSearchBox.vue";
+//import AlgoliaSearchBox from "./AlgoliaSearchBox.vue";
 
 export default {
   name: "Nav",
-  components: {
+  /*components: {
     AlgoliaSearchBox,
-  },
+  },*/
 
   computed: {
     algolia() {
