@@ -125,7 +125,7 @@
           <hr class="text-gray-400" />
         </div>
       </article>
-      <article class="p-4 flex space-x-4">
+      <!--<article class="p-4 flex space-x-4">
         <img
           src="images/thinglearn_logo.png"
           alt="ThingLearn graphic"
@@ -144,7 +144,7 @@
 
           <hr />
         </div>
-      </article>
+      </article>-->
       <article class="p-4 flex space-x-4">
         <img
           src="images/quicknoms_logo.png"
@@ -158,7 +158,7 @@
             Delicious recipes for students - 5 ingredients, 15 minutes, dinner
             is ready!
           </h3>
-          <p @click="goToSite('https://quicknoms.com')" class="link">
+          <p @click="goToSite('https://quicknoms.jenlooper.com')" class="link">
             learn more
           </p>
 
