@@ -125,7 +125,7 @@
           <hr class="text-gray-400" />
         </div>
       </article>
-      <!--<article class="p-4 flex space-x-4">
+      <article class="p-4 flex space-x-4">
         <img
           src="images/thinglearn_logo.png"
           alt="ThingLearn graphic"
@@ -138,13 +138,13 @@
             Learn about the internet of things with articles, projects, and cool
             maker ideas
           </h3>
-          <p @click="goToSite('http://thinglearn.com')" class="link">
+          <p @click="goToSite('http://thinglearn.jenlooper.com')" class="link">
             learn more
           </p>
 
           <hr />
         </div>
-      </article>-->
+      </article>
       <article class="p-4 flex space-x-4">
         <img
           src="images/quicknoms_logo.png"

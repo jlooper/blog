@@ -213,7 +213,7 @@
         <div class="w-full lg:w-1/2 px-2">
           <div
             class="h-64 lg:h-64 md:h-64 sm:h-auto flex p-6 bg-white card cursor-pointer"
-            @click="goToSite('https://thinglearn.com')"
+            @click="goToSite('https://thinglearn.jenlooper.com')"
           >
             <div class="w-40">
               <img
