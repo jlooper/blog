@@ -123,63 +123,7 @@
       </div>
     </div>
 
-    <!--row 2-->
-    <div class="px-2 mt-0 lg:mt-2 md:mt-0 sm:mt-0">
-      <div class="flex flex-wrap -mx-2">
-        <div class="w-full lg:w-1/2 px-2">
-          <div
-            class="h-64 lg:h-64 md:h-64 sm:h-auto flex p-6 bg-white card cursor-pointer"
-            @click="goToSite('https://practicebuddyapp.com')"
-          >
-            <div class="w-40">
-              <img
-                src="/images/practicebuddy_logo.png"
-                alt="Practice Buddy"
-                class="w-full h-full object-cover"
-              />
-            </div>
-            <div class="inline-block align-top">
-              <p
-                class="text-4xl lg:text-4xl md:text-2xl sm:text-xl p-2 font-bold text-center underline"
-              >
-                Practice Buddy
-              </p>
-              <p
-                class="inline-block text-2xl lg:text-2xl md:text-lg sm:text-lg p-2 align-top"
-              >
-                An app for music teachers and students.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="w-full lg:w-1/2 px-2">
-          <div
-            class="h-64 lg:h-64 md:h-64 sm:h-auto flex p-6 bg-white card cursor-pointer"
-            @click="goToSite('https://snappysquirrel.com')"
-          >
-            <div class="w-40">
-              <img
-                src="/images/snappy_logo.png"
-                alt="Snappy Squirrel"
-                class="w-full h-full object-cover"
-              />
-            </div>
-            <div class="inline-block align-top">
-              <p
-                class="text-4xl lg:text-4xl md:text-2xl sm:text-xl p-2 font-bold text-center underline"
-              >
-                Snappy Squirrel
-              </p>
-              <p
-                class="inline-block text-2xl lg:text-2xl md:text-lg sm:text-lg p-2 align-top"
-              >
-                E-Books teaching personal finance for kids.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    
 
     <!--row 3-->
     <div class="px-2 mt-0 lg:mt-2 md:mt-0 sm:mt-0">

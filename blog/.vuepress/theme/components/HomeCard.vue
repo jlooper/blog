@@ -21,7 +21,7 @@
       Hello, I'm Jen
     </div>
     <div class="tracking-wide pt-2 font-sans text-gray-600 text-lg">
-      Principal Education Developer Advocate Lead, Microsoft
+      Principal Education Developer Advocate, Microsoft
     </div>
 
     <div class="grid grid-cols-2 sm:hidden">
