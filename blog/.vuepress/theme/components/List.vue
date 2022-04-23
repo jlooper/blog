@@ -107,26 +107,6 @@
       </article>
       <article class="p-4 flex space-x-4">
         <img
-          src="images/practicebuddy_logo.png"
-          alt="Practice Buddy graphic"
-          width="144"
-          height="144"
-        />
-        <div class="min-w-0 relative flex-auto">
-          <h2>Practice Buddy</h2>
-          <h3>
-            A web app for teachers and music students - track your practice
-            time, record and email music snippets, improve your skills
-          </h3>
-          <p @click="goToSite('https://practicebuddyapp.com')" class="link">
-            learn more
-          </p>
-
-          <hr class="text-gray-400" />
-        </div>
-      </article>
-      <article class="p-4 flex space-x-4">
-        <img
           src="images/thinglearn_logo.png"
           alt="ThingLearn graphic"
           width="144"
