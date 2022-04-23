@@ -14,8 +14,8 @@ module.exports = {
   themeConfig: {
     search: false,
     algolia: {
-      apiKey: "9b7a092b1c2ced928fcb302010fd432d",
-      indexName: "jenlooper",
+      apiKey: "56b3ffe5730927ef4182c213ef95daa9",
+      indexName: "CS4Kids",
 
     },
     lastUpdated: "Last Updated",
