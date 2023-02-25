@@ -11,6 +11,13 @@ articles:
             'date': '04/22/2021',
             'link': 'https://dev.to/azure/making-games-with-autistic-students-a-partnership-between-the-national-museum-of-computing-track-org-and-azure-advocates-3c1e',
         },
+        {
+            'title': 'Build a Green Browser Extension',
+            'image': '59.png',
+            'blurb': 'Try your hand at building a browser extension to track the carbon intensity in your region',
+            'date': '04/07/2021',
+            'link': 'https://dev.to/azure/build-a-green-browser-extension-33in',
+        },
          
          {
             'title': 'Machine Learning for Artisans: Classifying Lacemaking Techniques',
