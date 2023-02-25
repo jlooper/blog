@@ -3,19 +3,17 @@
     <ul class="divide-y divide-gray-100">
       <article class="p-4 flex space-x-4">
         <img
-          src="images/ff-logo.png"
-          alt="Front-End Foxes"
+          src="images/cloud-clubs.png"
+          alt="AWS Cloud Clubs"
           width="144"
           height="144"
         />
         <div class="min-w-0 relative flex-auto">
-          <h2>Front-End Foxes School</h2>
+          <h2>AWS Cloud Clubs</h2>
           <h3>
-            A new kind of boot camp, for women by women. Learn front-end
-            technologies and build your portfolio in our professional
-            instructor-led cohorts.
+            My team at AWS is responsible for launching and nurturing Cloud Clubs worldwide.
           </h3>
-          <p @click="goToSite('https://frontendfoxes.school')" class="link">
+          <p @click="goToSite('https://s12d.com/students')" class="link">
             learn more
           </p>
           <hr />
