@@ -3,7 +3,13 @@ layout: BlogLayout
 title: Articles
 articles:
     [
-         
+         {
+            'title': 'Announcing the Launch of AWS Cloud Clubs',
+            'image': '60.png',
+            'blurb': 'An article written by Tracy Wang and Jen Looper all about our new initiative, AWS Cloud Clubs',
+            'date': '02/06/2023',
+            'link': 'https://dev.to/aws/announcing-the-launch-of-aws-cloud-clubs-16ng',
+        },
          {
             'title': 'Making Games with Autistic Students',
             'image': '58.png',
