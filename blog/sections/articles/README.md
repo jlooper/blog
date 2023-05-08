@@ -5,7 +5,7 @@ articles:
     [
          {
             'title': 'The Ethics of Generative AI: Part 1 - Some Vocabulary',
-            'image': '61.png',
+            'image': '62.png',
             'blurb': 'The lightning-speed development of generative AI in various permutations has serious ethical questions on fair use. In this introductory article I tackle this vast topic by offering some vocabulary and a timeline',
             'date': '04/7/2023',
             'link': 'genai-1.html',
